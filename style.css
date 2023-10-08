@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Comfortaa:wght@300&family=Gugi&display=swap');
+
+
+:root {
+    --cor_um: #8C1F33;
+    --cor_dois: #400711;
+    --cor_tres: #F24162;
+    --cor_quatro: #F25781;
+    --cor_fundo: #051726;
+    --cor_fundo_secundaria: #111111;
+    --cor_fonte: #FFFFFF;
+
+    --estilo_linhas: rgba(255, 255, 255, 0.30);
+    --transparente: rgba(255, 255, 255, 0); 
+
+    --select: #1278af;
+    --deluxe: #02806c;
+    --premium: #b04b79;
+    --exclusive: #d2834f;
+    --ultra: #d6bb57;
+
+    --fonte_fundo: 'Gugi', cursive;
+    --fonte_geral: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: var(--cor_fundo_secundaria);
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.navegacao {
+    left: 13%;
+    right: 13%;
+    width: 74%;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--cor_fonte);
+    font-family: var(--fonte_geral);
+    font-size: 1.5rem;
+    position: relative;
+}
+
+main {
+    background-color: var(--cor_fundo);
+    width: 100vw;
+    height: 88vh;
+    position: relative;
+}
+
+.estilo_linha_vertical {
+    width: 12.5%;
+    height: 100%;
+    border-right: 1px solid var(--estilo_linhas);
+    position: absolute;
+    z-index: 1;
+}
+
+.estilo_fundo_gradiente {
+    background-color: white;
+    background: linear-gradient(30deg, var(--cor_dois) 25%, var(--cor_fundo) 25%);
+    width: 20%;
+    height: 40%;
+    position: absolute;
+}
+
+#pesquisa {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 40%;
+    position: relative;
+    
+}
+
+.pagina_atual {
+    --estilo_pagina_atual_sombra: rgba(255, 255, 255, 0.116);
+    position: absolute;
+    top: 0px;
+    letter-spacing: 1rem;
+    color: var(--cor_fundo);
+    font-size: 23rem;
+    font-family: var(--fonte_fundo);
+    text-shadow: -1px 0 var(--estilo_pagina_atual_sombra), 0 1px var(--estilo_pagina_atual_sombra), 1px 0 var(--estilo_pagina_atual_sombra), 0 -1px var(--estilo_pagina_atual_sombra);
+    z-index: 1;
+   
+}
+
+.estilo_borda_pesquisa{
+    outline: 1px solid var(--cor_fonte);
+    outline-offset: 0.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.estilo_borda_pesquisa::before {
+    content: "";
+    background: var(--cor_fundo);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -0.6rem;
+    width: 55%;
+    height: 1rem;
+    z-index: 0;
+}
+
+.estilo_borda_pesquisa::after {
+    content: "";
+    background: linear-gradient(var(--cor_fundo) 75%, var(--cor_dois) 75%);
+    display: block;
+    position: absolute;
+    right: -0.6rem;
+    bottom: -0.6rem;
+    width: calc(100% + 1.2rem);
+    height: 55%;
+    z-index: 0;
+}
+
+.pesquisa_campo {
+    border: 0px;
+    padding-right: 50px;
+    width: 478px;
+    height: 71px;
+    background-color: var(--cor_tres);
+    color: var(--cor_fonte);
+    text-align: center;
+    font-family: var(--fonte_geral);
+    font-size: 1.3rem;
+    position: relative;
+    z-index: 2;
+}
+
+.pesquisa_campo::placeholder {
+    color: var(--cor_fonte);
+}
+
+#filtro_icone {
+    top: 15.5px;
+    right: 10px;
+    width: 40px;
+    position: absolute;
+    z-index: 3;
+}
+
+.estilo_linha_vertical_metade {
+    right: 0;
+    width: 12.5%;
+    height: 100%;
+    border-left: 1px solid var(--estilo_linhas);
+    position: absolute;
+
+}
+
+#blocos_skins {
+    height: 60%;
+    background-color: var(--cor_dois);
+    position: relative;
+}
+
+.estilo_cima {
+    top: -5px;
+    left: 12.5%;
+    width: 55%;
+    z-index: 2;
+    position: absolute;
+    
+}
+
+.estilo_cima_diagonal {
+    top: -140px;
+    left: 0;
+    width: 14.5%;
+    transform: rotate(30deg);
+    transform-origin: top left;
+    z-index: 2;
+    position: absolute;
+}
+
+.estilo_baixo {
+    top: 0;
+    left: 12.5%;
+    border: 1px solid var(--estilo_linhas);
+    width: -webkit-fill-available;
+    z-index: 2;
+    position: absolute;
+}
+
+.estilo_baixo_diagonal {
+    top: -145px;
+    left: 0;
+    width: 14.5%;
+    border: 1px solid var(--estilo_linhas);
+    transform: rotate(30deg);
+    transform-origin: top left;
+    z-index: 2;
+    position: absolute;
+}
+
+#armas_container {
+    left: 13%;
+    right: 13%;
+    width: 74%;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    position: relative;
+}
+
+.card {
+    width: 330px;
+    height: 165px;
+}
+
+.card_select {
+    position: relative;
+}
+
+.card_deluxe {
+    position: relative;
+}
+
+.card_premium {
+    position: relative;
+}
+
+.card_exclusive {
+    position: relative;
+}
+
+.card_ultra {
+    position: relative;
+}
+
+.fundo_icone {
+    top: 0.9rem;
+    width: 190;
+    opacity: 40%;
+    position: absolute;
+}
+
+.gradiente_select {
+    background: linear-gradient(var(--transparente), var(--select));
+    width: 330px;
+    height: 165px;
+}
+
+.gradiente_deluxe {
+    background: linear-gradient(var(--transparente), var(--deluxe));
+    width: 330px;
+    height: 165px;
+}
+
+.gradiente_premium {
+    background: linear-gradient(var(--transparente), var(--premium));
+    width: 330px;
+    height: 165px;
+}
+
+.gradiente_exclusive {
+    background: linear-gradient(var(--transparente), var(--exclusive));
+    width: 330px;
+    height: 165px;
+}
+
+.gradiente_ultra {
+    background: linear-gradient(var(--transparente), var(--ultra));
+    width: 330px;
+    height: 165px;
+}
+
+
+.arma {
+    left: 0;
+    position: absolute;
+}
+
+.classic {
+    top: 3px;
+    left: 42.3px;
+    height: 163px;
+}
+
+.shorty {
+    top: 32.5px;
+    height: 100px;
+}
+
+.frenzy {
+    top: 2.5px;
+    left: 56px;
+    height: 160px;
+}
+
+.ghost {
+    top: 29px;
+    height: 107px;
+}
+
+.sheriff {
+    top: 7.5px;
+    height: 150px;
+}
+
+.stinger {
+    top: 21px;
+    height: 123px;
+}
+
+.spectre {
+    top: 24.5px;
+    height: 116px;
+}
+
+.bucky {
+    top: 49.5px;
+    height: 66px;
+}
+
+.judge {
+    top: 33.5px;
+    height: 98px;
+}
+
+.bulldog {
+    top: 34.5px;
+    height: 96px;
+}
+
+.guardian {
+    top: 49px;
+    height: 67px;
+}
+
+.phantom {
+    top: 45.5px;
+    height: 74px;
+}
+
+.operator {
+    top: 49px;
+    height: 67px;
+}
+
+.ares {
+    top: 51px;
+    height: 63px;
+}
+
+.odin {
+    top: 40px;
+    height: 85px;
+}
+
+.knife {
+    top: 15px;
+    height: 135px;
+}
+
+footer {
+    background-color: var(--cor_fundo_secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor_fonte);
+    font-family: var(--fonte_geral);
+    width: 100vw;
+    height: 5vh;
+}
