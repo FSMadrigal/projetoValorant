@@ -1,0 +1,364 @@
+:root {
+    --cor_um: #8C1F33;
+    --cor_dois: #400711;
+    --cor_tres: #F24162;
+    --cor_quatro: #F25781;
+    --cor_fundo: #051726;
+    --cor_fundo_secundaria: #111111;
+    --cor_fonte: #FFFFFF;
+
+    --estilo_linhas: rgba(255, 255, 255, 0.30);
+    --transparente: rgba(255, 255, 255, 0); 
+
+    --select: #1278af;
+    --deluxe: #02806c;
+    --premium: #b04b79;
+    --exclusive: #d2834f;
+    --ultra: #d6bb57;
+
+    --fonte_fundo: 'Gugi', cursive;
+    --fonte_geral: 'Comfortaa', cursive;
+
+    --fundo_gradiente_largura: 204.5px;
+    --fundo_gradiente_altura: 102.3px;
+
+    --weapon_info_buttons_margin: 21px;
+    --weapon_info_buttons_padding: 18px;
+    --weapon_info_buttons_border: 0px;
+    --weapon_info_buttons_outline: 1px solid white;
+    --weapon_info_buttons_offset: 2px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 12.5% 87.5%;
+}
+
+.estilo_cima_diagonal {
+    top: 180px;
+    left: 0;
+    width: 14.5%;
+    border: 1px solid var(--estilo_linhas);
+    transform: rotate(30deg);
+    transform-origin: top left;
+    z-index: 2;
+    position: absolute;
+}
+.estilo_baixo_diagonal {
+    top: 186px;
+    left: 0;
+    width: 14.5%;
+    border: 1px solid var(--cor_fonte);
+    transform: rotate(30deg);
+    transform-origin: top left;
+    z-index: 2;
+    position: absolute;
+}
+
+#armas_container {
+    background-color: var(--cor_dois);
+    top: 40%;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card {
+    width: var(--fundo_gradiente_largura);
+    height: var(--fundo_gradiente_altura);
+    position: relative;
+}
+
+.fundo_icone {
+    top: 1.1rem;
+    width: 52%;
+    opacity: 40%;
+    position: absolute;
+}
+
+.fundo_gradiente {
+    width: var(--fundo_gradiente_largura);
+    height: var(--fundo_gradiente_altura);
+}
+
+.classic {
+    top: calc((var(--fundo_gradiente_altura) - 93%) / 2);
+    left: 15%;
+    height: 93%;
+}
+
+.shorty {
+    top: calc((var(--fundo_gradiente_altura) - 66%) / 2);
+    height: 66%;
+}
+
+.frenzy {
+    top: calc((var(--fundo_gradiente_altura) - 93%) / 2);
+    left: 13%;
+    height: 93%;
+}
+
+.ghost {
+    top: calc((var(--fundo_gradiente_altura) - 68%) / 2);
+    height: 68%;
+}
+
+.sheriff {
+    top: calc((var(--fundo_gradiente_altura) - 95%) / 2);
+    left: 2%;
+    height: 95%;
+}
+
+.stinger {
+    top: calc((var(--fundo_gradiente_altura) - 75%) / 2);
+    height: 75%;
+}
+
+.spectre {
+    top: calc((var(--fundo_gradiente_altura) - 71%) / 2);
+    height: 71%;
+}
+
+.bucky {
+    top: calc((var(--fundo_gradiente_altura) - 37%) / 2);
+    height: 37%;
+}
+
+.judge {
+    top: calc((var(--fundo_gradiente_altura) - 58%) / 2);
+    height: 58%;
+}
+
+.bulldog {
+    top: calc((var(--fundo_gradiente_altura) - 58%) / 2);
+    height: 58%;
+}
+
+.guardian {
+    top: calc((var(--fundo_gradiente_altura) - 41%) / 2);
+    height: 41%;
+}
+
+.phantom {
+    top: calc((var(--fundo_gradiente_altura) - 48.5%) / 2);
+    height: 48.5%;
+}
+
+.vandal{
+    top: calc((var(--fundo_gradiente_altura) - 62%) / 2);
+    height: 62%;
+}
+
+.marshal  {
+    top: calc((var(--fundo_gradiente_altura) - 34.5%) / 2);
+    height: 34.5%;
+}
+
+.operator {
+    top: calc((var(--fundo_gradiente_altura) - 41%) / 2);
+    height: 41%;
+}
+
+.ares {
+    top: calc((var(--fundo_gradiente_altura) - 35%) / 2);
+    height: 35%;
+}
+
+.odin {
+    top: calc((var(--fundo_gradiente_altura) - 53.5%) / 2);
+    height: 53.5%;
+}
+
+.knife {
+    top: calc((var(--fundo_gradiente_altura) - 83%) / 2);
+    height: 83%;
+}
+
+#weapon_info {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    position: relative;
+}
+
+.weapon_info_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.weapon_info_name{
+    --estilo_weapon_info_name_shadow: rgb(255, 255, 255, 0.116);
+    margin: 10px 0px 0px 0px;
+    color: var(--cor_fundo);
+    font-size: 11rem;
+    font-family: var(--fonte_fundo);
+    letter-spacing: 1rem;
+    text-shadow: -1px 0 var(--estilo_weapon_info_name_shadow), 0 1px var(--estilo_weapon_info_name_shadow), 1px 0 var(--estilo_weapon_info_name_shadow), 0 -1px var(--estilo_weapon_info_name_shadow);
+    position: absolute;
+    z-index: 0;
+}
+
+.weapon_info_weapon {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 0px 0px;
+    z-index: 1;
+}
+
+.weapon_info_weapon_image {
+    width: 1200px;
+}
+
+.weapon_info_buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 90px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.weapon_info_buttons_colors {
+    display: flex;
+    flex-direction: row;
+}
+
+li:last-child button {
+    margin-right: 63px;
+}
+
+.info_button { 
+    margin-right: var(--weapon_info_buttons_margin);
+    padding: var(--weapon_info_buttons_padding);
+    border: var(--weapon_info_buttons_border);
+    outline: var(--weapon_info_buttons_outline);
+    outline-offset: var(--weapon_info_buttons_offset);
+}
+
+.weapon_info_buttons_colors_green {
+    background: linear-gradient(-45deg, green 60%, white 40%);
+}
+
+.weapon_info_buttons_colors_red {
+    background: linear-gradient(-45deg, red 60%, white 40%);
+}
+
+.weapon_info_buttons_colors_blue {
+    background: linear-gradient(-45deg, blue 60%, white 40%);
+}
+
+.weapon_info_buttons_icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.weapon_info_buttons_icons_animação_da_arma {
+    background: url(./assets/images/icons/altera_animação_da_arma.svg)
+}
+
+.weapon_info_buttons_icons_animação_de_recarregar {
+    background: url(./assets/images/icons/altera_animação_de_recarregar.svg)
+}
+
+.weapon_info_buttons_icons_visualização_da_arma {
+    background: url(./assets/images/icons/altera_visualização_da_arma.svg)
+}
+
+.weapon_info_buttons_icons_efeito_visual {
+    background: url(./assets/images/icons/altera_efeito_visual.svg)
+}
+
+.weapon_info_buttons_icons_efeito_da_bala {
+    background: url(./assets/images/icons/altera_efeito_da_bala.svg)
+}
+
+.weapon_info_buttons_icons_efeito_sonoro {
+    background: url(./assets/images/icons/altera_efeito_sonoro.svg)
+}
+
+.weapon_info_buttons_icons_som_do_tiro {
+    background: url(./assets/images/icons/altera_som_do_tiro.svg)
+}
+
+.weapon_info_buttons_icons_musica {
+    background: url(./assets/images/icons/altera_musica.svg)
+}
+
+.weapon_info_buttons_icons_finalizador {
+    background: url(./assets/images/icons/altera_finalizador.svg)
+}
+
+.weapon_info_buttons_icons_contador_de_abate {
+    background: url(./assets/images/icons/altera_contador_de_abate.svg)
+}
+
+.weapon_info_buttons_icons_top_frag {
+    background: url(./assets/images/icons/altera_top_frag.svg)
+}
+
+.weapon_info_buttons_icons_atacante_ou_defensor {
+    background: url(./assets/images/icons/altera_atacante_ou_defensor.svg)
+}
+
+.weapon_info_buttons_price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #83C7BD;
+    padding: 20.5px 82px;
+}
+
+.weapon_info_buttons_price_image {
+    width: 25%;
+    padding-right: 21px;
+}
+
+.weapon_info_buttons_price_text {
+    color: var(--cor_fonte);
+    font-size: 2.3rem;
+    font-family: var(--fonte_geral);
+}
+
+.weapon_info_videos {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 42px 0px 42px;
+    border: 2px solid white;
+}
+
+.weapon_info_videos::before {
+    content: "";
+    background: var(--cor_fundo);
+    display: block;
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+    height: 8rem;
+    z-index: 0;
+}
+
+.weapon_info_videos::after {
+    content: "";
+    background: var(--cor_fundo);
+    display: block;
+    position: absolute;
+    right: 5rem;
+    width: calc(100% - 10rem);
+    height: 30%;
+    z-index: 0;
+}
+
+.video {
+    z-index: 1;
+}
+
+footer {
+    position: relative;
+}

@@ -21,6 +21,9 @@
 
     --fonte_fundo: 'Gugi', cursive;
     --fonte_geral: 'Comfortaa', cursive;
+
+    --fundo_gradiente_largura: 328px;
+    --fundo_gradiente_altura: 163px;
 }
 
 header {
@@ -43,7 +46,7 @@ nav {
     justify-content: space-evenly;
     color: var(--cor_fonte);
     font-family: var(--fonte_geral);
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: relative;
 }
 
@@ -214,67 +217,42 @@ main {
 }
 
 .card {
-    width: 330px;
-    height: 165px;
-}
-
-.card_select {
-    position: relative;
-}
-
-.card_deluxe {
-    position: relative;
-}
-
-.card_premium {
-    position: relative;
-}
-
-.card_exclusive {
-    position: relative;
-}
-
-.card_ultra {
+    width: var(--fundo_gradiente_largura);
+    height: var(--fundo_gradiente_altura);
     position: relative;
 }
 
 .fundo_icone {
-    top: 0.9rem;
-    width: 190;
+    bottom: 0;
+    width: 54%;
     opacity: 40%;
     position: absolute;
 }
 
+.fundo_gradiente {
+    width: var(--fundo_gradiente_largura);
+    height: var(--fundo_gradiente_altura);
+}
+
 .gradiente_select {
     background: linear-gradient(var(--transparente), var(--select));
-    width: 330px;
-    height: 165px;
 }
 
 .gradiente_deluxe {
     background: linear-gradient(var(--transparente), var(--deluxe));
-    width: 330px;
-    height: 165px;
 }
 
 .gradiente_premium {
     background: linear-gradient(var(--transparente), var(--premium));
-    width: 330px;
-    height: 165px;
 }
 
 .gradiente_exclusive {
     background: linear-gradient(var(--transparente), var(--exclusive));
-    width: 330px;
-    height: 165px;
 }
 
 .gradiente_ultra {
     background: linear-gradient(var(--transparente), var(--ultra));
-    width: 330px;
-    height: 165px;
 }
-
 
 .arma {
     left: 0;
@@ -282,85 +260,96 @@ main {
 }
 
 .classic {
-    top: 3px;
-    left: 42.3px;
-    height: 163px;
+    top: calc((var(--fundo_gradiente_altura) - 93%) / 2);
+    left: 15%;
+    height: 93%;
 }
 
 .shorty {
-    top: 32.5px;
-    height: 100px;
+    top: calc((var(--fundo_gradiente_altura) - 66%) / 2);
+    height: 66%;
 }
 
 .frenzy {
-    top: 2.5px;
-    left: 56px;
-    height: 160px;
+    top: calc((var(--fundo_gradiente_altura) - 93%) / 2);
+    left: 13%;
+    height: 93%;
 }
 
 .ghost {
-    top: 29px;
-    height: 107px;
+    top: calc((var(--fundo_gradiente_altura) - 68%) / 2);
+    height: 68%;
 }
 
 .sheriff {
-    top: 7.5px;
-    height: 150px;
+    top: calc((var(--fundo_gradiente_altura) - 95%) / 2);
+    left: 2%;
+    height: 95%;
 }
 
 .stinger {
-    top: 21px;
-    height: 123px;
+    top: calc((var(--fundo_gradiente_altura) - 75%) / 2);
+    height: 75%;
 }
 
 .spectre {
-    top: 24.5px;
-    height: 116px;
+    top: calc((var(--fundo_gradiente_altura) - 71%) / 2);
+    height: 71%;
 }
 
 .bucky {
-    top: 49.5px;
-    height: 66px;
+    top: calc((var(--fundo_gradiente_altura) - 37%) / 2);
+    height: 37%;
 }
 
 .judge {
-    top: 33.5px;
-    height: 98px;
+    top: calc((var(--fundo_gradiente_altura) - 58%) / 2);
+    height: 58%;
 }
 
 .bulldog {
-    top: 34.5px;
-    height: 96px;
+    top: calc((var(--fundo_gradiente_altura) - 58%) / 2);
+    height: 58%;
 }
 
 .guardian {
-    top: 49px;
-    height: 67px;
+    top: calc((var(--fundo_gradiente_altura) - 41%) / 2);
+    height: 41%;
 }
 
 .phantom {
-    top: 45.5px;
-    height: 74px;
+    top: calc((var(--fundo_gradiente_altura) - 48.5%) / 2);
+    height: 48.5%;
+}
+
+.vandal{
+    top: calc((var(--fundo_gradiente_altura) - 62%) / 2);
+    height: 62%;
+}
+
+.marshal  {
+    top: calc((var(--fundo_gradiente_altura) - 34.5%) / 2);
+    height: 34.5%;
 }
 
 .operator {
-    top: 49px;
-    height: 67px;
+    top: calc((var(--fundo_gradiente_altura) - 41%) / 2);
+    height: 41%;
 }
 
 .ares {
-    top: 51px;
-    height: 63px;
+    top: calc((var(--fundo_gradiente_altura) - 35%) / 2);
+    height: 35%;
 }
 
 .odin {
-    top: 40px;
-    height: 85px;
+    top: calc((var(--fundo_gradiente_altura) - 53.5%) / 2);
+    height: 53.5%;
 }
 
 .knife {
-    top: 15px;
-    height: 135px;
+    top: calc((var(--fundo_gradiente_altura) - 83%) / 2);
+    height: 83%;
 }
 
 footer {
@@ -372,4 +361,133 @@ footer {
     font-family: var(--fonte_geral);
     width: 100vw;
     height: 5vh;
+    position: relative;
+}
+
+@media (max-width: 2560px ), (min-width: 1920px) {
+    :root {
+        --fundo_gradiente_largura: 436.2px;
+        --fundo_gradiente_altura: 218.1px;
+    }
+
+    .estilo_fundo_gradiente {
+        background: linear-gradient(31deg, var(--cor_dois) 25%, var(--cor_fundo) 25%);
+    }
+
+    .pagina_atual {
+        font-size: 30rem;
+    }
+
+    .estilo_cima_diagonal {
+        top: -190px;
+        transform: rotate(31deg);
+    }
+
+    .estilo_baixo_diagonal {
+        top: -195px;
+        transform: rotate(31deg);
+    }
+}
+
+@media (max-width:1600px) {
+    :root {
+        --fundo_gradiente_largura: 272.6px;
+        --fundo_gradiente_altura: 136.3px;
+    }
+
+    .estilo_fundo_gradiente {
+        background: linear-gradient(34deg, var(--cor_dois) 25%, var(--cor_fundo) 25%);
+    }
+
+    .pagina_atual {
+        font-size: 19rem;
+    }
+
+    .pesquisa_campo {
+        width: 398.6px;
+        height: 59.2px;
+    }
+
+    .estilo_cima_diagonal {
+        top: -135px;
+        width: 15%;
+        transform: rotate(34deg);
+    }
+
+    .estilo_baixo_diagonal {
+        top: -140px;
+        width: 15%;
+        transform: rotate(34deg);
+    }
+
+    @media (max-width:720px), (max-height:1600px){
+        :root {
+            --fundo_gradiente_largura: 399.8px;
+            --fundo_gradiente_altura: 199.9px;
+        }
+        .navegacao {
+            left: 0;
+            justify-content: space-between;
+            font-size: 0.8rem;
+        }
+
+        .pagina_atual {
+            font-size: 5.5rem;
+        }
+
+        .estilo_linha_vertical {
+            display: none;
+        }
+
+        .estilo_linha_vertical_metade {
+            display: none;
+        }
+
+        .estilo_fundo_gradiente {
+            display: none;
+        }
+
+        #pesquisa {
+            height: 20%;
+        }
+
+        .pesquisa_campo {
+            width: 359.4px;
+            height: 58.3px;
+        }
+       
+        #blocos_skins {
+            height: 80%;
+        }
+
+        .estilo_cima {
+            left: 0;
+        }
+
+        .estilo_cima_diagonal {
+            display: none;
+        }
+
+        .estilo_baixo_diagonal {
+            display: none;
+        }
+         
+        #armas_container {
+            display: flex;
+            flex-direction: column;
+            left: 1.3%;
+        }
+
+        .card_exclusive {
+            display: none;
+        }
+
+        .card_ultra {
+            display: none;
+        }
+
+        footer {
+            font-size: 0.5rem;
+        }
+    }
 }

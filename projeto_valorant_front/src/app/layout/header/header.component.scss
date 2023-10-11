@@ -1,0 +1,31 @@
+header {
+  background-color: var(--cor_fundo_secundaria);
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+}
+
+.navegacao {
+  left: 13%;
+  right: 13%;
+  width: 74%;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--cor_fonte);
+  font-family: var(--fonte_geral);
+  font-size: 2rem;
+  position: relative;
+}
+
+@media (max-width:720px), (max-height:1600px){
+  .navegacao {
+      left: 0;
+      justify-content: space-between;
+      font-size: 0.8rem;
+  }
+}

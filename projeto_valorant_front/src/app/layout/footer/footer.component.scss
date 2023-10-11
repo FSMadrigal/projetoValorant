@@ -1,0 +1,17 @@
+footer {
+  background-color: var(--cor_fundo_secundaria);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cor_fonte);
+  font-family: var(--fonte_geral);
+  width: 100vw;
+  height: 5vh;
+  position: relative;
+}
+
+@media (max-width:720px), (max-height:1600px) {
+  footer {
+    font-size: 0.5rem;
+}
+}
