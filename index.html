@@ -1,96 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Skins</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- <img src="" class="assinatura"> -->
-        <nav>
-            <ul class="navegacao">
-                <li>
-                    <a>ARMAS</a>
-                </li>
-                <li>
-                    <a>CHAVEIROS</a>
-                </li>
-                <li>
-                    <a>BANNERS</a>
-                </li>
-                <li>
-                    <a>TITULOS</a>
-                </li>
-                <li>
-                    <a>EMOTES</a>
-                </li>
-                <li>
-                    <a>COLEÇÃO</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- <img src="" class="assinatura"> -->
+      <nav>
+        <ul class="navegacao">
+          <li>
+            <a [routerLink="['/pages/armas']" ]>ARMAS</a>
+          </li>
+          <li>
+            <a>CHAVEIROS</a>
+          </li>
+          <li>
+            <a>BANNERS</a>
+          </li>
+          <li>
+            <a>TITULOS</a>
+          </li>
+          <li>
+            <a>EMOTES</a>
+          </li>
+          <li>
+            <a>COLEÇÃO</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="estilo_linha_vertical" aria-hidden="true"></div>
-        <div class="estilo_fundo_gradiente" aria-hidden="true"></div>
-        <section id="pesquisa">
-            <p class="pagina_atual">ARMAS</p>
-            <div class="estilo_borda_pesquisa" aria-hidden="true">
-            <input type="search" class="pesquisa_campo" placeholder="Procure a skin aqui">
-            <img src="./assets/icons/filtro.svg" id="filtro_icone">
-            </div>
-            <div class="estilo_linha_vertical_metade" aria-hidden="true"></div>
-        </section>
-
-        <section id="blocos_skins">
-            <hr class="estilo_cima">
-            <hr class="estilo_cima_diagonal">
-            <hr class="estilo_baixo">
-            <hr class="estilo_baixo_diagonal">
-            <div id="armas_container">
-                <div  class="card card_select">
-                    <img src="./assets/images/cards/select/image_fundo.png" class="fundo_icone">
-                    <div class="fundo_gradiente gradiente_select" aria-hidden="true"></div>
-                    <img src="./assets/images/guns/Ego_Stinger.png" class="arma stinger">
-                    </div>
-        
-                    <div  class="card card_deluxe">
-                    <img src="./assets/images/cards/deluxe/image_fundo.png" class="fundo_icone">
-                    <div class="fundo_gradiente gradiente_deluxe" aria-hidden="true"></div>
-                    <img src="./assets/images/guns/Minima_Sheriff.png" class="arma sheriff">
-                    </div>
-        
-                    <div  class="card card_premium">
-                    <img src="./assets/images/cards/premium/image_fundo.png" class="fundo_icone">
-                    <div class="fundo_gradiente gradiente_premium" aria-hidden="true"></div>
-                    <img src="./assets/images/guns/Luxe_Ghost.png" class="arma ghost">
-                    </div>
-        
-                    <div  class="card card_exclusive">
-                    <img src="./assets/images/cards/exclusive/image_fundo.png" class="fundo_icone">
-                    <div class="fundo_gradiente gradiente_exclusive" aria-hidden="true"></div>
-                    <img src="./assets/images/guns/BlastX_Frenzy.png" class="arma frenzy">
-                    </div>
-        
-                    <div  class="card card_ultra">
-                    <img src="./assets/images/cards/ultra/image_fundo.png" class="fundo_icone">
-                    <div class="fundo_gradiente gradiente_ultra" aria-hidden="true"></div>
-                    <img src="./assets/images/guns/Tigris_Shorty.png" class="arma shorty">
-                    </div>
+      <div class="estilo_linha_vertical" aria-hidden="true"></div>
+      <div class="estilo_fundo_gradiente" aria-hidden="true"></div>
+      <section id="pesquisa">
+        <p class="pagina_atual">ARMAS</p>
+        <div class="estilo_borda_pesquisa" aria-hidden="true">
+          <input
+            type="search"
+            class="pesquisa_campo"
+            placeholder="Procure a skin aqui"
+          />
+          <img src="./assets/icons/filtro.svg" id="filtro_icone" />
         </div>
-            
-        </section>
+        <div class="estilo_linha_vertical_metade" aria-hidden="true"></div>
+      </section>
+
+      <section id="blocos_skins">
+        <hr class="estilo_cima" />
+        <hr class="estilo_cima_diagonal" />
+        <hr class="estilo_baixo" />
+        <hr class="estilo_baixo_diagonal" />
+        <div id="armas_container">
+          <div class="card card_select">
+            <img
+              src="./assets/images/cards/select/image_fundo.png"
+              class="fundo_icone"
+            />
+            <div
+              class="fundo_gradiente gradiente_select"
+              aria-hidden="true"
+            ></div>
+            <img
+              src="./assets/images/guns/Ego_Stinger.png"
+              class="arma stinger"
+            />
+          </div>
+
+          <div class="card card_deluxe">
+            <img
+              src="./assets/images/cards/deluxe/image_fundo.png"
+              class="fundo_icone"
+            />
+            <div
+              class="fundo_gradiente gradiente_deluxe"
+              aria-hidden="true"
+            ></div>
+            <img
+              src="./assets/images/guns/Minima_Sheriff.png"
+              class="arma sheriff"
+            />
+          </div>
+
+          <div class="card card_premium">
+            <img
+              src="./assets/images/cards/premium/image_fundo.png"
+              class="fundo_icone"
+            />
+            <div
+              class="fundo_gradiente gradiente_premium"
+              aria-hidden="true"
+            ></div>
+            <img src="./assets/images/guns/Luxe_Ghost.png" class="arma ghost" />
+          </div>
+
+          <div class="card card_exclusive">
+            <img
+              src="./assets/images/cards/exclusive/image_fundo.png"
+              class="fundo_icone"
+            />
+            <div
+              class="fundo_gradiente gradiente_exclusive"
+              aria-hidden="true"
+            ></div>
+            <img
+              src="./assets/images/guns/BlastX_Frenzy.png"
+              class="arma frenzy"
+            />
+          </div>
+
+          <div class="card card_ultra">
+            <img
+              src="./assets/images/cards/ultra/image_fundo.png"
+              class="fundo_icone"
+            />
+            <div
+              class="fundo_gradiente gradiente_ultra"
+              aria-hidden="true"
+            ></div>
+            <img
+              src="./assets/images/guns/Tigris_Shorty.png"
+              class="arma shorty"
+            />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>
-            Esse projeto foi criado utilizando a política "Legal Jibber Jabber" da Riot Games, usando materiais de propriedade da Riot Games.  Riot Games não apoia ou patrocina esse projeto.
-            <!-- This project was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project. -->
-        </p>
-           
+      <p>
+        Esse projeto foi criado utilizando a política "Legal Jibber Jabber" da
+        Riot Games, usando materiais de propriedade da Riot Games. Riot Games
+        não apoia ou patrocina esse projeto.
+        <!-- This project was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project. -->
+      </p>
     </footer>
-</body>
+  </body>
 </html>

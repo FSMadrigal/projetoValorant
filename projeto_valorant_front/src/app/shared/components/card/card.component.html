@@ -1,0 +1,17 @@
+<div
+  class="card {{ size }} card_{{ weapon.rarity }}"
+  (click)="goToIndividualWeaponPage()"
+>
+  <img
+    src="https://valorskins.s3.sa-east-1.amazonaws.com/rarity_icon/{{
+      weapon.rarity
+    }}_icon.png"
+    class="fundo_icone"
+  />
+  <div
+    class="gradient_background {{ size }} {{ weapon.rarity }}_gradient"
+    aria-hidden="true"
+  ></div>
+  <img [src]="weapon.image" class="weapon style_main" />
+  <img [src]="weapon.image" class="weapon style_glow" />
+</div>

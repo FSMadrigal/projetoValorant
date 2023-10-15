@@ -1,5 +1,5 @@
 header {
-  background-color: var(--cor_fundo_secundaria);
+  background-color: var(--background_secondary_color);
   width: 100vw;
   height: 7vh;
   display: flex;
@@ -10,22 +10,36 @@ nav {
   width: 100%;
 }
 
-.navegacao {
+.navigation {
   left: 13%;
   right: 13%;
   width: 74%;
   display: flex;
   justify-content: space-evenly;
-  color: var(--cor_fonte);
-  font-family: var(--fonte_geral);
+  color: var(--font_color);
+  font-family: var(--font);
   font-size: 2rem;
   position: relative;
 }
 
-@media (max-width:720px), (max-height:1600px){
-  .navegacao {
-      left: 0;
-      justify-content: space-between;
-      font-size: 0.8rem;
+.navigation_link:visited {
+  color: var(--font_color);
+  text-decoration: none;
+}
+
+.navigation_link:link {
+  color: var(--font_color);
+  text-decoration: none;
+}
+
+.navigation_link:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 720px) and (max-height: 1600px) {
+  .navigation {
+    left: 0;
+    justify-content: space-between;
+    font-size: 0.8rem;
   }
 }

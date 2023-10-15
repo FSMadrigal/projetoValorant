@@ -1,0 +1,26 @@
+{
+  "nomes_armas": {
+    "gaias_vengeance_shorty": "Shorty Vingança de Gaia",
+    "gaias_vengeance_bucky": "Bucky Vingança de Gaia",
+    "gaias_vengeance_phantom": "Phantom Vingança de Gaia",
+    "gaias_vengeance_ares": "Ares Vingança de Gaia",
+    "gaias_vengeance_knife": "Ira de Gaia",
+
+    "intergrade_classic": "Classic Intermedial",
+    "intergrade_spectre": "Spectre Intermedial",
+    "intergrade_guardian": "Guardian Intermedial",
+    "intergrade_operator": "Operator Intermedial",
+    "intergrade_knife": "Peixeira Intermedial",
+
+    "freehand_ghost": "Classic Pichação",
+    "freehand_spectre": "Spectre Pichação",
+    "freehand_marshal": "Marshal Pichação",
+    "freehand_odin": "Odin Pichação",
+
+    "imperium_sheriff": "Sheriff Imperium",
+    "imperium_judge": "Judge Imperium",
+    "imperium_vandal": "Vandal Imperium",
+    "imperium_operator": "Operator Imperium",
+    "imperium_knife": "Sheriff Imperium",
+  }
+}

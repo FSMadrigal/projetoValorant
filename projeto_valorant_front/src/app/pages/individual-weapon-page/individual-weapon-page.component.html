@@ -1,0 +1,139 @@
+<main>
+  <div class="style_vertical_line_left" aria-hidden="true"></div>
+  <div class="style_gradient_background" aria-hidden="true"></div>
+  <div class="style_vertical_line_right" aria-hidden="true"></div>
+  <section id="collection_info">
+    <div class="current_page_wrapper">
+      <h1
+        [fittext]="true"
+        [modelToWatch]="individual_weapon.collection"
+        class="current_page style_glitch"
+      >
+        <span aria-hidden="true">{{
+          individual_weapon.collection.replaceAll("_", " ")
+        }}</span>
+        {{ individual_weapon.collection.replaceAll("_", " ") }}
+        <span aria-hidden="true">{{
+          individual_weapon.collection.replaceAll("_", " ")
+        }}</span>
+      </h1>
+    </div>
+    <p class="collection_info_release">
+      Released on {{ individual_weapon.release_date.replaceAll("_", " ") }}
+    </p>
+  </section>
+  <section id="weapon_info">
+    <div id="container_weapons">
+      <app-card
+        *ngFor="let weapon of individual_weapon.collection_weapons"
+        [weapon]="weapon"
+        size="small"
+      ></app-card>
+    </div>
+    <hr class="style_up_line_left" />
+    <hr class="style_up_line_right" />
+    <hr class="style_up_line_diagonal" />
+    <hr class="style_bottom_line" />
+    <hr class="style_bottom_line_diagonal" />
+    <div class="weapon_info_card_wrapper">
+      <div class="weapon_info_card"></div>
+      <p class="weapon_info_card_name">{{ individual_weapon.weapon }}</p>
+      <img
+        [src]="individual_weapon.image"
+        class="weapon_info_weapon_image style_main"
+      />
+      <img
+        [src]="individual_weapon.image"
+        class="weapon_info_weapon_image style_glow"
+      />
+      <div class="weapon_info_buttons">
+        <ul class="weapon_info_buttons_colors">
+          <li>
+            <button
+              class="weapon_info_buttons_colors_green info_button"
+            ></button>
+          </li>
+          <li>
+            <button class="weapon_info_buttons_colors_red info_button"></button>
+          </li>
+          <li>
+            <button
+              class="weapon_info_buttons_colors_blue info_button"
+            ></button>
+          </li>
+        </ul>
+        <ul class="weapon_info_buttons_icons">
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_gun_animation"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_reload_animation"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_gun_visualization"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_visual_effect"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_bullet_effect"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_sound_effect"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_gunshot_sound"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_music"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_finisher"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_kill_count"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_top_frag"
+            ></button>
+          </li>
+          <li>
+            <button
+              class="info_button weapon_info_buttons_icons_attackers_or_defenders"
+            ></button>
+          </li>
+        </ul>
+        <div class="weapon_info_buttons_price">
+          <img
+            src="https://valorskins.s3.sa-east-1.amazonaws.com/icons/price_icon.png"
+            class="weapon_info_buttons_price_image"
+          />
+          <p class="weapon_info_buttons_price_text">
+            {{ individual_weapon.price }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

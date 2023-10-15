@@ -1,14 +1,14 @@
 :root {
-    --cor_um: #8C1F33;
-    --cor_dois: #400711;
-    --cor_tres: #F24162;
-    --cor_quatro: #F25781;
-    --cor_fundo: #051726;
-    --cor_fundo_secundaria: #111111;
-    --cor_fonte: #FFFFFF;
+    --secondary_color: #8C1F33;
+    --primary_color: #400711;
+    --tertiary_color: #F24162;
+    --quaternary_color: #F25781;
+    --background_primary_color: #051726;
+    --background_secondary_color: #111111;
+    --font_color: #FFFFFF;
 
     --estilo_linhas: rgba(255, 255, 255, 0.30);
-    --transparente: rgba(255, 255, 255, 0); 
+    --transparent_color: rgba(255, 255, 255, 0); 
 
     --select: #1278af;
     --deluxe: #02806c;
@@ -16,11 +16,11 @@
     --exclusive: #d2834f;
     --ultra: #d6bb57;
 
-    --fonte_fundo: 'Gugi', cursive;
-    --fonte_geral: 'Comfortaa', cursive;
+    --title_font: 'Gugi', cursive;
+    --font: 'Comfortaa', cursive;
 
     --fundo_gradiente_largura: 204.5px;
-    --fundo_gradiente_altura: 102.3px;
+    --background_gradient_height_: 102.3px;
 
     --weapon_info_buttons_margin: 21px;
     --weapon_info_buttons_padding: 18px;
@@ -48,7 +48,7 @@ main {
     top: 186px;
     left: 0;
     width: 14.5%;
-    border: 1px solid var(--cor_fonte);
+    border: 1px solid var(--font_color);
     transform: rotate(30deg);
     transform-origin: top left;
     z-index: 2;
@@ -56,7 +56,7 @@ main {
 }
 
 #armas_container {
-    background-color: var(--cor_dois);
+    background-color: var(--primary_color);
     top: 40%;
     left: 0;
     bottom: 10px;
@@ -69,7 +69,7 @@ main {
 
 .card {
     width: var(--fundo_gradiente_largura);
-    height: var(--fundo_gradiente_altura);
+    height: var(--background_gradient_height_);
     position: relative;
 }
 
@@ -82,99 +82,99 @@ main {
 
 .fundo_gradiente {
     width: var(--fundo_gradiente_largura);
-    height: var(--fundo_gradiente_altura);
+    height: var(--background_gradient_height_);
 }
 
 .classic {
-    top: calc((var(--fundo_gradiente_altura) - 93%) / 2);
+    top: calc((var(--background_gradient_height_) - 93%) / 2);
     left: 15%;
     height: 93%;
 }
 
 .shorty {
-    top: calc((var(--fundo_gradiente_altura) - 66%) / 2);
+    top: calc((var(--background_gradient_height_) - 66%) / 2);
     height: 66%;
 }
 
 .frenzy {
-    top: calc((var(--fundo_gradiente_altura) - 93%) / 2);
+    top: calc((var(--background_gradient_height_) - 93%) / 2);
     left: 13%;
     height: 93%;
 }
 
 .ghost {
-    top: calc((var(--fundo_gradiente_altura) - 68%) / 2);
+    top: calc((var(--background_gradient_height_) - 68%) / 2);
     height: 68%;
 }
 
 .sheriff {
-    top: calc((var(--fundo_gradiente_altura) - 95%) / 2);
+    top: calc((var(--background_gradient_height_) - 95%) / 2);
     left: 2%;
     height: 95%;
 }
 
 .stinger {
-    top: calc((var(--fundo_gradiente_altura) - 75%) / 2);
+    top: calc((var(--background_gradient_height_) - 75%) / 2);
     height: 75%;
 }
 
 .spectre {
-    top: calc((var(--fundo_gradiente_altura) - 71%) / 2);
+    top: calc((var(--background_gradient_height_) - 71%) / 2);
     height: 71%;
 }
 
 .bucky {
-    top: calc((var(--fundo_gradiente_altura) - 37%) / 2);
+    top: calc((var(--background_gradient_height_) - 37%) / 2);
     height: 37%;
 }
 
 .judge {
-    top: calc((var(--fundo_gradiente_altura) - 58%) / 2);
+    top: calc((var(--background_gradient_height_) - 58%) / 2);
     height: 58%;
 }
 
 .bulldog {
-    top: calc((var(--fundo_gradiente_altura) - 58%) / 2);
+    top: calc((var(--background_gradient_height_) - 58%) / 2);
     height: 58%;
 }
 
 .guardian {
-    top: calc((var(--fundo_gradiente_altura) - 41%) / 2);
+    top: calc((var(--background_gradient_height_) - 41%) / 2);
     height: 41%;
 }
 
 .phantom {
-    top: calc((var(--fundo_gradiente_altura) - 48.5%) / 2);
+    top: calc((var(--background_gradient_height_) - 48.5%) / 2);
     height: 48.5%;
 }
 
 .vandal{
-    top: calc((var(--fundo_gradiente_altura) - 62%) / 2);
+    top: calc((var(--background_gradient_height_) - 62%) / 2);
     height: 62%;
 }
 
 .marshal  {
-    top: calc((var(--fundo_gradiente_altura) - 34.5%) / 2);
+    top: calc((var(--background_gradient_height_) - 34.5%) / 2);
     height: 34.5%;
 }
 
 .operator {
-    top: calc((var(--fundo_gradiente_altura) - 41%) / 2);
+    top: calc((var(--background_gradient_height_) - 41%) / 2);
     height: 41%;
 }
 
 .ares {
-    top: calc((var(--fundo_gradiente_altura) - 35%) / 2);
+    top: calc((var(--background_gradient_height_) - 35%) / 2);
     height: 35%;
 }
 
 .odin {
-    top: calc((var(--fundo_gradiente_altura) - 53.5%) / 2);
+    top: calc((var(--background_gradient_height_) - 53.5%) / 2);
     height: 53.5%;
 }
 
 .knife {
-    top: calc((var(--fundo_gradiente_altura) - 83%) / 2);
+    top: calc((var(--background_gradient_height_) - 83%) / 2);
     height: 83%;
 }
 
@@ -194,9 +194,9 @@ main {
 .weapon_info_name{
     --estilo_weapon_info_name_shadow: rgb(255, 255, 255, 0.116);
     margin: 10px 0px 0px 0px;
-    color: var(--cor_fundo);
+    color: var(--background_primary_color);
     font-size: 11rem;
-    font-family: var(--fonte_fundo);
+    font-family: var(--title_font);
     letter-spacing: 1rem;
     text-shadow: -1px 0 var(--estilo_weapon_info_name_shadow), 0 1px var(--estilo_weapon_info_name_shadow), 1px 0 var(--estilo_weapon_info_name_shadow), 0 -1px var(--estilo_weapon_info_name_shadow);
     position: absolute;
@@ -319,9 +319,9 @@ li:last-child button {
 }
 
 .weapon_info_buttons_price_text {
-    color: var(--cor_fonte);
+    color: var(--font_color);
     font-size: 2.3rem;
-    font-family: var(--fonte_geral);
+    font-family: var(--font);
 }
 
 .weapon_info_videos {
@@ -335,7 +335,7 @@ li:last-child button {
 
 .weapon_info_videos::before {
     content: "";
-    background: var(--cor_fundo);
+    background: var(--background_primary_color);
     display: block;
     position: absolute;
     bottom: 4rem;
@@ -346,7 +346,7 @@ li:last-child button {
 
 .weapon_info_videos::after {
     content: "";
-    background: var(--cor_fundo);
+    background: var(--background_primary_color);
     display: block;
     position: absolute;
     right: 5rem;
@@ -357,8 +357,4 @@ li:last-child button {
 
 .video {
     z-index: 1;
-}
-
-footer {
-    position: relative;
 }
