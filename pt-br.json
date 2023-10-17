@@ -21,6 +21,1149 @@
     "imperium_judge": "Judge Imperium",
     "imperium_vandal": "Vandal Imperium",
     "imperium_operator": "Operator Imperium",
-    "imperium_knife": "Sheriff Imperium",
+    "imperium_knife": "Lâminas Imperium",
+
+    "panoramic_classic": "Classic Panorama",
+    "panoramic_bucky": "Bucky Panorama",
+    "panoramic_guardian": "Guardian Panorama",
+
+    "rdvr_phantom": "Phantom RDVR",
+
+    "transition_knife": "Faca Transição",
+    "transition_shorty": "Shorty Transição",
+    "transition_stinger": "Stinger Transição",
+    "transition_bulldog": "Bulldog Transição",
+    "transition_vandal": "Vandal Transição",
+
+    "daydreams_classic": "Classic Devaneios",
+    "daydreams_judge": "Judge Devaneios",
+    "daydreams_phantom": "Phantom Devaneios",
+    "daydreams_operator": "Operator Devaneios",
+    "daydreams_knife": "Pé de Cabra Devaneios",
+
+    "champions_2023_kunai": "Kunai Champions 2023",
+    "champions_2023_vandal": "Vandal Champions 2023",
+
+    "ignite_fan": "Leque Flamejante",
+
+    "blush_frenzy": "Frenzy Blush",
+    "blush_spectre": "Spectre Blush",
+    "blush_guardian": "Guardian Blush",
+    "blush_operator": "Operator Blush",
+
+    "composite_knife": "Faca Beligerante",
+    "composite_sheriff": "Sheriff Beligerante",
+    "composite_stinger": "Stinger Beligerante",
+    "composite_phantom": "Phantom Beligerante",
+    "composite_marshal": "Marshal Beligerante",
+
+    "resolution": "Classic Resolução",
+
+    "digihex_ghost": "Ghost Digihex",
+    "digihex_judge": "Judge Digihex",
+    "digihex_bulldog": "Bulldog Digihex",
+    "digihex_ares": "Ares Digihex",
+
+    "neo_frontier_sheriff": "Sheriff Neo Oeste",
+    "neo_frontier_phantom": "Phantom Neo Oeste",
+    "neo_frontier_marshal": "Marshal Neo Oeste",
+    "neo_frontier_odin": "Odin Neo Oeste",
+    "neo_frontier_knife": "Machado Neo Oeste",
+
+    "no_limits_ghost": "Ghost Sem Limites",
+    "no_limits_spectre": "Spectre Sem Limites",
+    "no_limits_bulldog": "Bulldog Sem Limites",
+    "no_limits_vandal": "Vandal Sem Limites",
+    "no_limits_knife": "Taco Sem Limites",
+
+    "bound_melee": "Imposição",
+    "bound_classic": "Classic Imposição",
+    "bound_judge": "Judge Imposição",
+    "bound_bulldog": "Bulldog Imposição",
+    "bound_phantom": "Phantom Imposição",
+
+    "monstrocity_sheriff": "Sheriff Monstrocity",
+    "monstrocity_spectre": "Spectre Monstrocity",
+    "monstrocity_vandal": "Vandal Monstrocity",
+    "monstrocity_ares": "Ares Monstrocity",
+
+    "moondash_frenzy": "Frenzy Lunação",
+    "moondash_stinger": "Stinger Lunação",
+    "moondash_guardian": "Guardian Lunação",
+    "moondash_marshal": "Marshal Lunação",
+
+    "radiant_entertainment_system_ghost": "Ghost Radiant Entertainment System",
+    "radiant_entertainment_system_bulldog": "Bulldog Radiant Entertainment System",
+    "radiant_entertainment_system_phantom": "Phantom Radiant Entertainment System",
+    "radiant_entertainment_system_operator": "Operator Radiant Entertainment System",
+    "radiant_entertainment_system_knife": "Power Fist",
+
+    "magepunk_phantom": "Phantom Magipunk",
+    "magepunk_vandal": "Vandal Magipunk",
+    "magepunk_switch": "Canivete Elétrico Magipunk",
+
+    "black.market_classic": "Classic Mercado.Clandestino",
+    "black.market_bulldog": "Bulldog Mercado.Clandestino",
+    "black.market_vandal": "Vandal Mercado.Clandestino",
+    "black.market_marshal": "Marshal Mercado.Clandestino",
+    "black.market_knife": "Canivete-Borboleta Mercado.Clandestino",
+
+    "altitude_sheriff": "Sheriff Altitude",
+    "altitude_bucky": "Bucky Altitude",
+    "altitude_vandal": "Vandal Altitude",
+    "altitude_odin": "Odin Altitude",
+    "altitude_knife": "Faca com Soco Inglês Altitude",
+
+    "sidekick": "Shorty Amiguinho",
+
+    "oni_frenzy": "Frenzy Oni",
+    "oni_bulldog": "Bulldog Oni",
+    "oni_vandal": "Vandal Oni",
+    "oni_ares": "Ares Oni",
+    "oni_knife": "Onimaru Kunitsuna",
+
+    "signature_sheriff": "Sheriff Signature",
+    "signature_stinger": "Stinger Signature",
+    "signature_guardian": "Guardian Signature",
+    "signature_marshal": "Marshal Signature",
+
+    "tilde_knife": "Faca Tildante",
+    "tilde_shorty": "Shorty Tildante",
+    "tilde_judge": "Judge Tildante",
+    "tilde_bulldog": "Bulldog Tildante",
+    "tilde_operator": "Operator Tildante",
+
+    "topotek_ghost": "Ghost Topotek",
+    "topotek_bucky": "Bucky Topotek",
+    "topotek_phantom": "Phantom Topotek",
+    "topotek_odin": "Odin Topotek",
+
+    "reverie_classic": "Classic Vitral",
+    "reverie_guardian": "Guardian Vitral",
+    "reverie_phantom": "Phantom Vitral",
+    "reverie_marshal": "Marshal Vitral",
+    "reverie_knife": "Espada Vitral",
+
+    "vct_lock//in_misericordia": "Misericórdia VCT Lock//In",
+
+    "luna_ghost": "Ghost Luna",
+    "luna_spectre": "Spectre Luna",
+    "luna_vandal": "Vandal Luna",
+    "luna_marshal": "Marshal Luna",
+    "luna_knife": "Lua Poente",
+
+    "9_lives_classic": "Classic 7 Vidas",
+    "9_lives_guardian": "Guardian 7 Vidas",
+    "9_lives_phantom": "Phantom 7 Vidas",
+    "9_lives_ares": "Ares 7 Vidas",
+
+    "araxys_shorty": "Shorty Araxys",
+    "araxys_bulldog": "Bulldog Araxys",
+    "araxys_vandal": "Vandal Araxys",
+    "araxys_operator": "Operator Araxys",
+    "araxys_knife": "Biocoletora Araxys",
+
+    "gridcrash_ghost": "Ghost Gridcrash",
+    "gridcrash_stinger": "Stinger Gridcrash",
+    "gridcrash_judge": "Judge Gridcrash",
+    "gridcrash_bulldog": "Bulldog Gridcrash",
+    
+    "venturi_knife": "Faca Venturi",
+    "venturi_frenzy": "Frenzy Venturi",
+    "venturi_spectre": "Spectre Venturi",
+    "venturi_vandal": "Vandal Venturi",
+    "venturi_marshal": "Marshal Venturi",
+
+    "cryostasis_classic": "Classic Criostase",
+    "cryostasis_bulldog": "Bulldog Criostase",
+    "cryostasis_vandal": "Vandal Criostase",
+    "cryostasis_operator": "Operator Criostase",
+    "cryostasis_knife": "Martelo Pneumático Criostase",
+
+    "abyssal_sheriff": "Sheriff Abissal",
+    "abyssal_spectre": "Spectre Abissal",
+    "abyssal_guardian": "Guardian Abissal",
+    "abyssal_phantom": "Phantom Abissal",
+    "abyssal_knife": "Cerúleo",
+
+    "soulstrife_ghost": "Ghost Ceifador",
+    "soulstrife_spectre": "Spectre Ceifador",
+    "soulstrife_guardian": "Guardian Ceifador",
+    "soulstrife_phantom": "Phantom Ceifador",
+    "soulstrife_knife": "Foice Ceifador",
+
+    "wayfarer": "Sheriff Viajante",
+
+    "ion_frenzy": "Frenzy Íon",
+    "ion_spectre": "Spectre Íon",
+    "ion_vandal": "Vandal Íon",
+    "ion_ares": "Ares Íon",
+    "ion_knife": "Karambit Íon",
+
+    "iridian_thorn_blade": "Confronto Espinho Iridescente",
+    "iridian_thorn_sheriff": "Sheriff Espinho Iridescente",
+    "iridian_thorn_bucky": "Bucky Espinho Iridescente",
+    "iridian_thorn_judge": "Judge Espinho Iridescente",
+    "iridian_thorn_operator": "Operator Espinho Iridescente",
+
+    "rune_stone_shorty": "Shorty Pedra Rúnica",
+    "rune_stone_bulldog": "Bulldog Pedra Rúnica",
+    "rune_stone_marshal": "Marshal Pedra Rúnica",
+    "rune_stone_odin": "Odin Pedra Rúnica",
+
+    "starlit_odyssey_ghost": "Ghost Odisseia nas Estrelas",
+    "starlit_odyssey_spectre": "Spectre Odisseia nas Estrelas",
+    "starlit_odyssey_guardian": "Guardian Odisseia nas Estrelas",
+    "starlit_odyssey_vandal": "Vandal Odisseia nas Estrelas",
+
+    "crimsonbeast_sheriff": "Sheriff Fera Incendiária",
+    "crimsonbeast_judge": "Judge Fera Incendiária",
+    "crimsonbeast_vandal": "Vandal Fera Incendiária",
+    "crimsonbeast_marshal": "Marshal Fera Incendiária",
+    "crimsonbeast_knife": "Martelo Fera Incendiária",
+
+    "chronovoid_sheriff": "Sheriff Chronovoid",
+    "chronovoid_judge": "Judge Chronovoid",
+    "chronovoid_phantom": "Phantom Chronovoid",
+    "chronovoid_vandal": "Vandal Chronovoid",
+    "chronovoid_knife": "Terminus A Quo",
+
+    "kohaku_&_matsuba_classic": "Classic Kohaku e Matsuba",
+    "kohaku_&_matsuba_judge": "Judge Kohaku e Matsuba",
+    "kohaku_&_matsuba_phantom": "Phantom Kohaku e Matsuba",
+    "kohaku_&_matsuba_operator": "Operator Kohaku e Matsuba",
+    "kohaku_&_matsuba_knife": "Equilibrium",
+
+    "immortalized_sheriff": "Sheriff Imortalizados",
+    "immortalized_stinger": "Stinger Imortalizados",
+    "immortalized_guardian": "Guardian Imortalizados",
+    "immortalized_vandal": "Vandal Imortalizados",
+
+    "piedra_del_sol_obsidiana": "Obsidiana",
+    "piedra_del_sol_ghost": "Ghost Piedra del Sol",
+    "piedra_del_sol_bucky": "Bucky Piedra del Sol",
+    "piedra_del_sol_judge": "Judge Piedra del Sol",
+    "piedra_del_sol_phantom": "Phantom Piedra del Sol",
+
+    "premiere_collision_classic": "Classic Colisão Primária",
+    "premiere_collision_bulldog": "Bulldog Colisão Primária",
+    "premiere_collision_marshal": "Marshal Colisão Primária",
+    "premiere_collision_ares": "Ares Colisão Primária",
+
+    "reaver,_ep_5_ghost": "Ghost Saqueador",
+    "reaver,_ep_5_spectre": "Spectre Saqueador",
+    "reaver,_ep_5_phantom": "Phantom Saqueador",
+    "reaver,_ep_5_odin": "Odin Saqueador",
+    "reaver,_ep_5_knife": "Karambit Saqueador",
+
+    "sarmad_frenzy": "Ghost Sarmad",
+    "sarmad_spectre": "Spectre Sarmad",
+    "sarmad_phantom": "Phantom Sarmad",
+    "sarmad_vandal": "Odin Sarmad",
+    "sarmad_knife": "Lâmina de Serket",
+
+    "prelude_to_chaos_shorty": "Shorty Prelúdio do Caos",
+    "prelude_to_chaos_stinger": "Stinger Prelúdio do Caos",
+    "prelude_to_chaos_vandal": "Vandal Prelúdio do Caos",
+    "prelude_to_chaos_operator": "Operator Prelúdio do Caos",
+    "prelude_to_chaos_knife": "Lâmina do Caos",
+
+    "shimmer_classic": "Classic Cintilação",
+    "shimmer_stinger": "Stinger Cintilação",
+    "shimmer_judge": "Judge Cintilação",
+    "shimmer_bulldog": "Bulldog Cintilação",
+
+    "spitfire_ghost": "Ghost Cospe-Fogo",
+    "spitfire_guardian": "Guardian Cospe-Fogo",
+    "spitfire_operator": "Operator Cospe-Fogo",
+    "spitfire_ares": "Ares Cospe-Fogo",
+
+    "task_force_809_knife": "Faca Força-Tarefa 809",
+    "task_force_809_frenzy": "Frenzy Força-Tarefa 809",
+    "task_force_809_spectre": "Spectre Força-Tarefa 809",
+    "task_force_809_phantom": "Phantom Força-Tarefa 809",
+    "task_force_809_marshal": "Marshal Força-Tarefa 809",
+
+    "xenohunter_frenzy": "Frenzy Xenocaçador",
+    "xenohunter_bucky": "Bucky Xenocaçador",
+    "xenohunter_phantom": "Phantom Xenocaçador",
+    "xenohunter_odin": "Odin Xenocaçador",
+    "xenohunter_knife": "Faca Xenocaçador",
+
+    "neptune_shorty": "Shorty Netuno",
+    "neptune_spectre": "Spectre Netuno",
+    "neptune_guardian": "Guardian Netuno",
+    "neptune_vandal": "Vandal Netuno",
+    "neptune_knife": "Âncora Netuno",
+
+    "titanmail_frenzy": "Frenzy Titânica",
+    "titanmail_bucky": "Bucky Titânica",
+    "titanmail_vandal": "Vandal Titânica",
+    "titanmail_ares": "Ares Titânica",
+    "titanmail_knife": "Clava Titânica",
+
+    "coalition:cobra_frenzy": "Frenzy Aliança: Cobra",
+    "coalition:cobra_judge": "Judge Aliança: Cobra",
+    "coalition:cobra_marshal": "Marshal Aliança: Cobra",
+    "coalition:cobra_odin": "Odin Aliança: Cobra",
+
+    "dot_sys_melee": "Confronto .SYS",
+    "dot_sys_sheriff": "Sheriff .SYS",
+    "dot_sys_stinger": "Stinger .SYS",
+    "dot_sys_bucky": "Bucky .SYS",
+    "dot_sys_vandal": "Vandal .SYS",
+
+    "karabasan": "Shorty Karabasan",
+
+    "hue_shift_shorty": "Shorty Matizes",
+    "hue_shift_spectre": "Spectre Matizes",
+    "hue_shift_bulldog": "Bulldog Matizes",
+    "hue_shift_phantom": "Phantom Matizes",
+
+    "rgx_11z_pro_classic": "Classic RGX 11z Pro",
+    "rgx_11z_pro_spectre": "Spectre RGX 11z Pro",
+    "rgx_11z_pro_phantom": "Phantom RGX 11z Pro",
+    "rgx_11z_pro_operator": "Operator RGX 11z Pro",
+    "rgx_11z_pro_knife": "Vaga-Lume RGX 11z Pro",
+
+    "champions_2022_butterfly_knife": "Canivete-Borboleta Champions 2022",
+    "champions_2022_phantom": "Phantom Champions 2022",
+
+    "doodle_buds_shorty": "Shorty Rabisquinhos",
+    "doodle_buds_stinger": "Stinger Rabisquinhos",
+    "doodle_buds_phantom": "Phantom Rabisquinhos",
+    "doodle_buds_marshal": "Marshal Rabisquinhos",
+    "doodle_buds_ares": "Ares Rabisquinhos",
+
+    "endeavour_ghost": "Ghost Missão Espacial",
+    "endeavour_bulldog": "Bulldog Missão Espacial",
+    "endeavour_vandal": "Vandal Missão Espacial",
+    "endeavour_operator": "Operator Missão Espacial",
+    "endeavour_ares": "Ares Missão Espacial",
+
+    "divine_swine_frenzy": "Frenzy Suíno Divino",
+    "divine_swine_judge": "Judge Suíno Divino",
+    "divine_swine_marshal": "Marshal Suíno Divino",
+    "divine_swine_ares": "Ares Suíno Divino",
+
+    "gaias_vengeance_ghost": "Ghost Vingança de Gaia",
+    "gaias_vengeance_guardian": "Guardian Vingança de Gaia",
+    "gaias_vengeance_vandal": "Vandal Vingança de Gaia",
+    "gaias_vengeance_marshal": "Marshal Vingança de Gaia",
+    "gaias_vengeance_axe": "Fúria de Gaia",
+
+    "lycans_bane_ghost": "Ghost Licantropo",
+    "lycans_bane_stinger": "Stinger Licantropo",
+    "lycans_bane_vandal": "Vandal Licantropo",
+    "lycans_bane_odin": "Odin Licantropo",
+
+    "striker_classic": "Classic Artilheira",
+    "striker_knife": "Faca Artilheira",
+    "striker_spectre": "Spectre Artilheira",
+    "striker_bulldog": "Bulldog Artilheira",
+    "striker_operator": "Operator Artilheira",
+
+    "team_ace_frenzy": "Frenzy Ás na Manga",
+    "team_ace_judge": "Judge Ás na Manga",
+    "team_ace_phantom": "Phantom Ás na Manga",
+    "team_ace_vandal": "Vandal Ás na Manga",
+    "team_ace_operator": "Operator Ás na Manga",
+
+    "undercity_classic": "Classic Suburbano",
+    "undercity_judge": "Judge Suburbano",
+    "undercity_bulldog": "Bulldog Suburbano",
+    "undercity_phantom": "Phantom Suburbano",
+    "undercity_knife": "Hack",
+
+    "tigris_shorty": "Shorty Tigris",
+    "tigris_spectre": "Spectre Tigris",
+    "tigris_phantom": "Phantom Tigris",
+    "tigris_operator": "Operator Tigris",
+    "tigris_knife": "Espada Tigris",
+
+    "wayfinder_shorty": "Shorty Desbravadora",
+
+    "hydrodip_frenzy": "Frenzy Hidromergulho",
+    "hydrodip_bucky": "Bucky Hidromergulho",
+    "hydrodip_judge": "Judge Hidromergulho",
+    "hydrodip_guardian": "Guardian Hidromergulho",
+
+    "live_wire": "Frenzy Eletrizante",
+
+    "protocol_781-a_sheriff": "Sheriff Protocolo 781-A",
+    "protocol_781-a_spectre": "Spectre Protocolo 781-A",
+    "protocol_781-a_bulldog": "Bulldog Protocolo 781-A",
+    "protocol_781-a_phantom": "Phantom Protocolo 781-A",
+    "protocol_781-a_knife": "Unidade Administrativa de Defesa Pessoal",
+
+    "schema_sheriff": "Sheriff Diagrama",
+    "schema_stinger": "Stinger Diagrama",
+    "schema_vandal": "Vandal Diagrama",
+    "schema_odin": "Odin Diagrama",
+
+    "velocity_karambit": "Karambit Velocidade",
+    "velocity_shorty": "Shorty Velocidade",
+    "velocity_spectre": "Spectre Velocidade",
+    "velocity_bulldog": "Bulldog Velocidade",
+    "velocity_phantom": "Phantom Velocidade",
+
+    "snowfall_classic": "Classic Nevada",
+    "snowfall_judge": "Judge Nevada",
+    "snowfall_phantom": "Phantom Nevada",
+    "snowfall_ares": "Ares Nevada",
+    "snowfall_knife": "Varinha Nevada",
+
+    "finesse": "Classic Finesse",
+
+    "champions_2021_karambit": "Karambit Champions 2021",
+    "champions_2021_vandal": "Vandal Champions 2021",
+
+    "magepunk_guardian": "Guardian Magipunk",
+    "magepunk_operator": "Operator Magipunk",
+    "magepunk_ares": "Ares Magipunk",
+    "magepunk_knife": "Manopla de Choque Magipunk",
+
+    "aero_frenzy": "Frenzy Aero",
+    "aero_spectre": "Spectre Aero",
+    "aero_guardian": "Guardian Aero",
+    "aero_phantom": "Phantom Aero",
+
+    "arcane_sheriff": "Sheriff Arcane",
+
+    "genesis_arc": "Arco Gênese",
+    "genesis_shorty": "Shorty Gênese",
+    "genesis_bucky": "Bucky Gênese",
+    "genesis_bulldog": "Bulldog Gênese",
+    "genesis_operator": "Operator Gênese",
+
+    "goldwing_classic": "Classic Asas Douradas",
+    "goldwing_ghost": "Ghost Asas Douradas",
+    "goldwing_judge": "Judge Asas Douradas",
+    "goldwing_ares": "Ares Asas Douradas",
+
+    "radiant_crisis_001_classic": "Classic Crise Radiante 001",
+    "radiant_crisis_001_spectre": "Spectre Crise Radiante 001",
+    "radiant_crisis_001_bucky": "Bucky Crise Radiante 001",
+    "radiant_crisis_001_phantom": "Phantom Crise Radiante 001",
+    "radiant_crisis_001_knife": "Taco de Beisebol Crise Radiante 001",
+
+    "nunca_olvidados_frenzy": "Frenzy Nunca Olvidados",
+    "nunca_olvidados_bulldog": "Bulldog Nunca Olvidados",
+    "nunca_olvidados_vandal": "Vandal Nunca Olvidados",
+    "nunca_olvidados_ares": "Ares Nunca Olvidados",
+    "nunca_olvidados_knife": "Catrina",
+
+    "rgx_11z_pro_frenzy": "Frenzy RGX 11z Pro",
+    "rgx_11z_pro_stinger": "Stinger RGX 11z Pro",
+    "rgx_11z_pro_guardian": "Guardian RGX 11z Pro",
+    "rgx_11z_pro_vandal": "Vandal RGX 11z Pro",
+    "rgx_11z_pro_blade": "Lâmina RGX 11z Pro",
+
+    "valorant_go!_vol._2_classic'": "Classic Valorant Go! Vol.2",
+    "valorant_go!_vol._2_vandal'": "Vandal Valorant Go! Vol.2",
+    "valorant_go!_vol._2_operator'": "Operator Valorant Go! Vol.2",
+    "valorant_go!_vol._2_ares'": "Ares Valorant Go! Vol.2",
+    "valorant_go!_vol._2_knife'": "Pente-Borboleta Estiloso do Yoru",
+
+    "artisan_foil": "Florete Artesã",
+    "artisan_ghost": "Ghost Artesã",
+    "artisan_bucky": "Bucky Artesã",
+    "artisan_phantom": "Phantom Artesã",
+    "artisan_marshal": "Marshal Artesã",
+
+    "nitro_guardian": "Guardian Nitro",
+    "nitro_vandal": "Vandal Nitro",
+    "nitro_operator": "Operator Nitro",
+    "nitro_odin": "Odin Nitro",
+
+    "spectrum_classic": "Classic Espectro",
+    "spectrum_bulldog": "Bulldog Espectro",
+    "spectrum_guardian": "Guardian Espectro",
+    "spectrum_phantom": "Phantom Espectro",
+    "spectrum_knife": "Ondulação",
+
+    "varnish_sheriff": "Sheriff Verniz",
+    "varnish_stinger": "Stinger Verniz",
+    "varnish_judge": "Judge Verniz",
+    "varnish_bulldog": "Bulldog Verniz",
+
+    "recon_ghost": "Ghost Reconhecimento",
+    "recon_spectre": "Spectre Reconhecimento",
+    "recon_guardian": "Guardian Reconhecimento",
+    "recon_phantom": "Phantom Reconhecimento",
+    "recon_knife": "Canivete Balisong Reconhecimento",
+
+    "sentinels_of_light_sheriff": "Sheriff Sentinelas da Luz",
+    "sentinels_of_light_vandal": "Vandal Sentinelas da Luz",
+    "sentinels_of_light_operator": "Operator Sentinelas da Luz",
+    "sentinels_of_light_ares": "Ares Sentinelas da Luz",
+    "sentinels_of_light_knife": "Relíquia Sentinela",
+
+    "ruination_ghost": "Ghost Ruína",
+    "ruination_spectre": "Spectre Ruína",
+    "ruination_guardian": "Guardian Ruína",
+    "ruination_phantom": "Phantom Ruína",
+    "ruination_knife": "Espada do Rei Destruído Quebrada",
+
+    "jigsaw_ghost": "Ghost Quebra-Cabeça",
+    "jigsaw_judge": "Judge Quebra-Cabeça",
+    "jigsaw_guardian": "Guardian Quebra-Cabeça",
+    "jigsaw_ares": "Ares Quebra-Cabeça",
+
+    "k/tac_blade": "Lâmina K/Tac",
+    "k/tac_sheriff": "Sheriff K/Tac",
+    "k/tac_bulldog": "Bulldog K/Tac",
+    "k/tac_vandal": "Vandal K/Tac",
+    "k/tac_operator": "Operator K/Tac",
+
+    "fire/arm": "Classic Pis/Tola",
+
+    "monarch_shorty": "Shorty Monarquia",
+    "monarch_frenzy": "Frenzy Monarquia",
+    "monarch_bucky": "Bucky Monarquia",
+    "monarch_marshal": "Marshal Monarquia",
+
+    "origin_frenzy": "Frenzy Origem",
+    "origin_bucky": "Bucky Origem",
+    "origin_vandal": "Vandal Origem",
+    "origin_operator": "Operator Origem",
+    "origin_knife": "Lâmina Crescente Origem",
+
+    "minima_sheriff": "Sheriff Mínima",
+    "minima_spectre": "Spectre Mínima",
+    "minima_phantom": "Phantom Mínima",
+    "minima_operator": "Operator Mínima",
+    "minima_ares": "Ares Mínima",
+
+    "tethered_realms_ghost": "Ghost Reinos Vinculados",
+    "tethered_realms_guardian": "Guardian Reinos Vinculados",
+    "tethered_realms_vandal": "Vandal Reinos Vinculados",
+    "tethered_realms_operator": "Operator Reinos Vinculados",
+    "tethered_realms_knife": "Prosperidade",
+
+    "depths_ghost": "Ghost Oceânica",
+    "depths_stinger": "Stinger Oceânica",
+    "depths_bulldog": "Bulldog Oceânica",
+    "depths_vandal": "Vandal Oceânica",
+
+    "forsaken_classic": "Classic Lúgubre",
+    "forsaken_spectre": "Spectre Lúgubre",
+    "forsaken_vandal": "Vandal Lúgubre",
+    "forsaken_operator": "Operator Lúgubre",
+    "forsaken_knife": "Lâmina Cerimonial Lúgubre",
+
+    "lightwave_frenzy": "Frenzy Cintilante",
+    "lightwave_sheriff": "Sheriff Cintilante",
+    "lightwave_bucky": "Bucky Cintilante",
+    "lightwave_phantom": "Phantom Cintilante",
+    "lightwave_odin": "Odin Cintilante",
+
+    "songsteel_melee": "Frenzy Metalódica",
+    "songsteel_classic": "Classic Metalódica",
+    "songsteel_guardian": "Guardian Metalódica",
+    "songsteel_marshal": "Metalódica",
+
+    "silvanus_sheriff": "Sheriff Bosque Místico",
+    "silvanus_stinger": "Stinger Bosque Místico",
+    "silvanus_phantom": "Phantom Bosque Místico",
+    "silvanus_vandal": "Vandal Bosque Místico",
+    "silvanus_operator": "Operator Bosque Místico",
+
+    "magepunk_ghost": "Ghost Magipunk",
+    "magepunk_spectre": "Spectre Magipunk",
+    "magepunk_bucky": "Bucky Magipunk",
+    "magepunk_marshal": "Marshal Magipunk",
+    "magepunk_electro": "Eletrofaca Magipunk",
+
+    "infantry_ghost": "Ghost Infantaria",
+    "infantry_spectre": "Spectre Infantaria",
+    "infantry_guardian": "Guardian Infantaria",
+    "infantry_operator": "Operator Infantaria",
+    "infantry_ares": "Ares Infantaria",
+
+    "POLYfrog_sheriff": "Sheriff POLYfrog",
+    "POLYfrog_spectre": "Spectre POLYfrog",
+    "POLYfrog_marshal": "Marshal POLYfrog",
+    "POLYfrog_ares": "Ares POLYfrog",
+
+    "eclipse": "Ghost Infantaria",
+
+    "cavalier_ghost": "Ghost Cavalaria",
+    "cavalier_stinger": "Stinger Cavalaria",
+    "cavalier_bucky": "Bucky Cavalaria",
+    "cavalier_vandal": "Vandal Cavalaria",
+    "cavalier_operator": "Operator Cavalaria",
+
+    "prime//2.0_frenzy": "Frenzy Sublime//2.0",
+    "prime//2.0_bucky": "Bucky Sublime//2.0",
+    "prime//2.0_phantom": "Phantom Sublime//2.0",
+    "prime//2.0_odin": "Odin Sublime//2.0",
+    "prime//2.0_knife": "Karambit Sublime//2.0",
+
+    "prismIII_axe": "Machado Prismático III",
+    "prismIII_classic": "Classic Prismática III",
+    "prismIII_judge": "Judge Prismática III",
+    "prismIII_odin": "Odin Prismática III",
+
+    "celestial_frenzy": "Frenzy Celestial",
+    "celestial_judge": "Judge Celestial",
+    "celestial_phantom": "Phantom Celestial",
+    "celestial_ares": "Ares Celestial",
+    "celestial_knife": "Leque Celestial",
+
+    "valorant_go!_vol._1_ghost": "Ghost Valorant Go! Vol. 1",
+    "valorant_go!_vol._1_spectre": "Spectre Valorant Go! Vol. 1",
+    "valorant_go!_vol._1_guardian": "Guardian Valorant Go! Vol. 1",
+    "valorant_go!_vol._1_phantom": "Phantom Valorant Go! Vol. 1",
+    "valorant_go!_vol._1_knife": "Faca Valorant Go! Vol. 1",
+
+    "glitchpop_classic": "Classic Glitchpop",
+    "glitchpop_phantom": "Phantom Glitchpop",
+    "glitchpop_vandal": "Vandal Glitchpop",
+    "glitchpop_operator": "Operator Glitchpop",
+    "glitchpop_axe": "Machado Glitchpop",
+
+    "horizon_frenzy": "Frenzy Horizonte",
+    "horizon_spectre": "Spectre Horizonte",
+    "horizon_bucky": "Bucky Horizonte",
+    "horizon_bulldog": "Bulldog Horizonte",
+    "horizon_vandal": "Vandal Horizonte",
+
+    "prism_ii_shorty": "Shorty Prismática II",
+    "prism_ii_sheriff": "Sheriff Prismática II",
+    "prism_ii_stinger": "Stinger Prismática II",
+    "prism_ii_bucky": "Bucky Prismática II",
+    "prism_ii_vandal": "Vandal Prismática II",
+
+    "aerosol_shorty": "Shorty Pulverizante",
+    "aerosol_bucky": "Bucky Pulverizante",
+    "aerosol_operator": "Operator Pulverizante",
+    "aerosol_odin": "Odin Pulverizante",
+
+    "infinity_classic": "Classic Infinito",
+    "infinity_spectre": "Spectre Infinito",
+    "infinity_bulldog": "Bulldog Infinito",
+    "infinity_guardian": "Guardian Infinito",
+    "infinity_phantom": "Phantom Infinito",
+
+    "outpost_melee": "Confronto Posto Avançado",
+    "outpost_ghost": "Ghost Posto Avançado",
+    "outpost_judge": "Judge Posto Avançado",
+    "outpost_ares": "Ares Posto Avançado",
+
+    "death_wish": "Sheriff Desejo Mortal",
+
+    "blastx_frenzy": "Frenzy BlastX",
+    "blastx_spectre": "Spectre BlastX",
+    "blastx_phantom": "Phantom BlastX",
+    "blastx_odin": "Odin BlastX",
+    "blastx_knife": "Faca com Polímero KnifeTech BlastX",
+
+    "winterwunderland_ghost": "Ghost Paraíso Invernal",
+    "winterwunderland_phantom": "Phantom Paraíso Invernal",
+    "winterwunderland_vandal": "Vandal Paraíso Invernal",
+    "winterwunderland_marshal": "Marshal Paraíso Invernal",
+    "winterwunderland_knife": "Bengala Doce Paraíso Invernal",
+
+    "ion_sheriff": "Sheriff Íon",
+    "ion_bucky": "Bucky Íon",
+    "ion_phantom": "Phantom Íon",
+    "ion_operator": "Operator Íon",
+    "ion_sword": "Espada de Energia Íon",
+
+    "sensation_frenzy": "Frenzy Sensação",
+    "sensation_stinger": "Stinger Sensação",
+    "sensation_judge": "Judge Sensação",
+    "sensation_vandal": "Vandal Sensação",
+    "sensation_odin": "Odin Sensação",
+
+    "wasteland_shorty": "Shorty Desolação",
+    "wasteland_sheriff": "Sheriff Desolação",
+    "wasteland_spectre": "Spectre Desolação",
+    "wasteland_vandal": "Vandal Desolação",
+    "wasteland_marshal": "Marshal Desolação",
+
+    "reaver_sheriff": "Sheriff Saqueador",
+    "reaver_guardian": "Guardian Saqueador",
+    "reaver_vandal": "Vandal Saqueador",
+    "reaver_operator": "Operator Saqueador",
+    "reaver_knife": "Faca Saqueador",
+
+    "swooping": "Frenzy Rasante",
+
+    "ruin_dagger": "Adaga Delíquio",
+    "ruin_shorty": "Shorty Delíquio",
+    "ruin_guardian": "Guardian Delíquio",
+    "ruin_vandal": "Vandal Delíquio",
+    "ruin_marshal": "Marshal Delíquio",
+
+    "serenity_ghost": "Ghost Serenidade",
+    "serenity_spectre": "Spectre Serenidade",
+    "serenity_judge": "Judge Serenidade",
+    "serenity_phantom": "Phantom Serenidade",
+
+    "singularity_sheriff": "Sheriff Singularidade",
+    "singularity_spectre": "Spectre Singularidade",
+    "singularity_phantom": "Phantom Singularidade",
+    "singularity_ares": "Ares Singularidade",
+    "singularity_knife": "Faca Singularidade",
+
+    "surge_classic": "Classic Arranque",
+    "surge_sheriff": "Sheriff Arranque",
+    "surge_stinger": "Stinger Arranque",
+    "surge_bucky": "Bucky Arranque",
+
+    "gravitational_uranium_neuroblaster_spectre": "Spectre Anti-Rádio-Matéria Atomizador",
+    "gravitational_uranium_neuroblaster_bucky": "Bucky Anti-Rádio-Matéria Atomizador",
+    "gravitational_uranium_neuroblaster_operator": "Operator Anti-Rádio-Matéria Atomizador",
+    "gravitational_uranium_neuroblaster_knife": "Bastão Anti-Rádio-Matéria Atomizador",
+    "gravitational_uranium_neuroblaster_classic": "Classic Anti-Rádio-Matéria Atomizador",
+
+    "ego_ghost": "Ghost Ego",
+    "ego_stinger": "Stinger Ego",
+    "ego_guardian": "Guardian Ego",
+    "ego_vandal": "Vandal Ego",
+    "ego_knife": "Faca Ego",
+
+    "smite_classic": "Classic Relâmpago",
+    "smite_judge": "Judge Relâmpago",
+    "smite_phantom": "Phantom Relâmpago",
+    "smite_odin": "Odin Relâmpago",
+    "smite_knife": "Faca Relâmpago",
+
+    "spline_classic": "Classic Spline",
+    "spline_spectre": "Spectre Spline",
+    "spline_phantom": "Phantom Spline",
+    "spline_operator": "Operator Spline",
+    "spline_knife": "Adaga Spline",
+
+    "nebula_sheriff": "Sheriff Nebulosa",
+    "nebula_guardian": "Guardian Nebulosa",
+    "nebula_phantom": "Phantom Nebulosa",
+    "nebula_ares": "Ares Nebulosa",
+    "nebula_knife": "Faca Nebulosa",
+
+    "POLYfox_sheriff": "Sheriff POLYfox",
+    "POLYfox_judge": "Judge POLYfox",
+    "POLYfox_bulldog": "Bulldog POLYfox",
+    "POLYfox_guardian": "Guardian POLYfox",
+
+    "glitchpop_frenzy": "Frenzy Glitchpop",
+    "glitchpop_judge": "Judge Glitchpop",
+    "glitchpop_bulldog": "Bulldog Glitchpop",
+    "glitchpop_odin": "Odin Glitchpop",
+    "glitchpop_knife": "Adaga Glitchpop",
+
+    "hivemind_sword": "Espada Colmeia",
+    "hivemind_shorty": "Shorty Colmeia",
+    "hivemind_spectre": "Spectre Colmeia",
+    "hivemind_vandal": "Vandal Colmeia",
+    "hivemind_ares": "Ares Colmeia",
+
+    "wunderkind": "Shorty Jovem Prodígio",
+
+    "red_alert_classic": "Classic Alerta Vermelho",
+    "red_alert_stinger": "Stinger Alerta Vermelho",
+    "red_alert_bucky": "Bucky Alerta Vermelho",
+    "red_alert_operator": "Operator Alerta Vermelho",
+
+    "oni_shorty": "Shorty Oni",
+    "oni_bucky": "Bucky Oni",
+    "oni_guardian": "Guardian Oni",
+    "oni_phantom": "Phantom Oni",
+    "oni_claw": "Garra Oni",
+
+    "elderflame_frenzy": "Frenzy Ancifogo",
+    "elderflame_judge": "Judge Ancifogo",
+    "elderflame_vandal": "Vandal Ancifogo",
+    "elderflame_operator": "Operator Ancifogo",
+    "elderflame_knife": "Adaga Ancifogo",
+
+    "prism_ghost": "Ghost Prismático",
+    "prism_spectre": "Spectre Prismático",
+    "prism_phantom": "Phantom Prismático",
+    "prism_operator": "Operator Prismático",
+    "prism_ares": "Ares Prismático",
+    "prism_knife": "Faca Prismática",
+
+    "sovereign_ghost": "Ghost Soberania",
+    "sovereign_stinger": "Stinger Soberania",
+    "sovereign_guardian": "Guardian Soberania",
+    "sovereign_marshal": "Marshal Soberania",
+    "sovereign_knife": "Espada Soberania",
+
+    "dot_exe_ghost": "Ghost .EXE",
+    "dot_exe_judge": "Judge .EXE",
+    "dot_exe_vandal": "Vandal .EXE",
+    "dot_exe_odin": "Odin .EXE",
+
+    "aristocrat_sheriff": "Sheriff Aristocrata",
+    "aristocrat_stinger": "Stinger Aristocrata",
+    "aristocrat_bulldog": "Bulldog Aristocrata",
+    "aristocrat_vandal": "Vandal Aristocrata",
+    "aristocrat_ares": "Ares Aristocrata",
+
+    "avalanche_classic": "Classic Avalanche",
+    "avalanche_spectre": "Spectre Avalanche",
+    "avalanche_phantom": "Phantom Avalanche",
+    "avalanche_vandal": "Vandal Avalanche",
+    "avalanche_marshal": "Marshal Avalanche",
+
+    "convex_sheriff": "Sheriff Convexa",
+    "convex_spectre": "Spectre Convexa",
+    "convex_judge": "Judge Convexa",
+    "convex_bulldog": "Bulldog Convexa",
+    "convex_operator": "Operator Convexa",
+
+    "couture_frenzy": "Frenzy Couture",
+    "couture_stinger": "Stinger Couture",
+    "couture_bulldog": "Bulldog Couture",
+    "couture_marshal": "Marshal Couture",
+
+    "galleria_classic": "Classic Galeria",
+    "galleria_bucky": "Bucky Galeria",
+    "galleria_guardian": "Guardian Galeria",
+    "galleria_phantom": "Phantom Galeria",
+    "galleria_marshal": "Marshal Galeria",
+
+    "kingdom_knife": "Faca Kingdom",
+    "kingdom_classic": "Classic Kingdom",
+    "kingdom_spectre": "Spectre Kingdom",
+    "kingdom_bucky": "Bucky Kingdom",
+    "kingdom_phantom": "Phantom Kingdom",
+
+    "luxe_spectre": "Spectre Luxo",
+    "luxe_judge": "Judge Luxo",
+    "luxe_vandal": "Vandal Luxo",
+    "luxe_operator": "Operator Luxo",
+    "luxe_knife": "Faca Luxo",
+
+    "prime_classic": "Classic Sublime",
+    "prime_spectre": "Spectre Sublime",
+    "prime_guardian": "Guardian Sublime",
+    "prime_vandal": "Vandal Sublime",
+    "prime_knife": "Machado Sublime",
+
+    "rush_frenzy": "Frenzy Corrida",
+    "rush_judge": "Judge Corrida",
+    "rush_bulldog": "Bulldog Corrida",
+    "rush_phantom": "Phantom Corrida",
+    "rush_ares": "Ares Corrida",
+
+    "sakura_classic": "Classic Sakura",
+    "sakura_sheriff": "Sheriff Sakura",
+    "sakura_stinger": "Stinger Sakura",
+    "sakura_vandal": "Vandal Sakura",
+    "sakura_ares": "Ares Sakura",
+
+    "vendetta": "Ghost Vingativa",
+
+    "ragnarocker": "Frenzy Ragnarocker",
+
+    "peacekeeper": "Sheriff Pacificadora",
+
+    "hush": "Ghost Silenciosa",
+
+    "game_over": "Sheriff Fim de Jogo",
+
+    "soul_silencer": "Ghost Silencialmas",
+
+    "spitfire": "Frenzy Cospe-Fogo",
+
+    "pistolinha": "Classic Pistolinha",
+
+    "final_chamber": "Classic Recurso Final",
+
+    "protektor": "Sheriff Protektor",
+
+    "snakebite": "Shorty Veneno de Cobra"
+  },
+
+  "raridade_armas": {
+    "select": "Select",
+    "deluxe": "Deluxe",
+    "Premium": "Premium",
+    "exclusive": "Exclusive",
+    "ultra": "Ultra"
+  },
+
+  "coleção_armas": {
+    "gaias_vengeance": "Vingança de Gaia",
+    "intergrade": "Intermedial",
+    "freehand": "Pichação",
+    "imperium": "Imperium",
+    "panoramic": "Panorama",
+    "rdvr": "RDVR",
+    "transition": "Transição",
+    "daydreams": "Devaneios",
+    "champions_collection_2023": "Champions 2023",
+    "ignite_capsule": "Flamejante",
+    "blush": "Blush",
+    "composite": "Beligerante",
+    "deadlock": "Deadlock",
+    "digihex": "Digihex",
+    "neo_frontier": "Neo Oeste",
+    "no_limits": "Sem Limites",
+    "bound": "Imposição",
+    "monstrocity": "Monstrocity",
+    "moondash": "Lunação",
+    "radiant_entertainment_system": "Radiant Entertainment System",
+    "magepunk": "Magipunk",
+    "black.market": "Mercado.Clandestino",
+    "altitude": "Altitude",
+    "gekko": "Gekko",
+    "oni": "Oni",
+    "signature": "Signature",
+    "tilde": "Tildante",
+    "topotek": "Topotek",
+    "reverie": "Vitral",
+    "vct_lock//in_capsule": "VCT Lock//In",
+    "luna": "Luna",
+    "9_lives": "7 Vidas",
+    "araxys": "Araxys",
+    "gridcrash": "Gridcrash",
+    "venturi": "Venturi",
+    "cryostasis": "Criostase",
+    "abyssal": "Abissal",
+    "soulstrife": "Ceifador",
+    "harbor": "Harbor",
+    "ion": "Íon",
+    "iridian_thorn": "Espinho Iridescente",
+    "rune_stone": "Pedra Rúnica",
+    "starlit_odyssey": "Odisseia nas Estrelas",
+    "crimsonbeast": "Fera Incendiária",
+    "chronovoid": "Chronovoid",
+    "kohaku_&_matsuba": "Kohaku e Matsuba",
+    "immortalized": "Imortalizados",
+    "piedra_del_sol": "Piedra del Sol",
+    "premiere_collision": "Colisão Primária",
+    "reaver,_ep_5": "Saqueador",
+    "sarmad": "Sarmad",
+    "prelude_to_chaos": "Prelúdio do Caos",
+    "shimmer": "Cintilação",
+    "spitfire": "Cospe-Fogo",
+    "task_force_809": "Força-Tarefa 809",
+    "xenohunter": "Xenocaçador",
+    "neptune": "Netuno",
+    "titanmail": "Titânica",
+    "coalition:cobra": "Aliança: Cobra",
+    "dot_sys": ".SYS",
+    "fade": "Fade",
+    "hue_shift": "Matizes",
+    "rgx_11z_pro": "RGX 11z Pro",
+    "champions_collection_2022": "Champions 2022",
+    "doodle_buds": "Rabisquinhos",
+    "endeavour": "Missão Espacial",
+    "divine_swine": "Suíno Divino",
+
+    "lycans_bane": "Licantropo",
+
+    "striker": "Artilheira",
+
+    "team_ace": "Ás na Manga",
+
+    "undercity": "Suburbano",
+
+    "tigris_shorty": "Shorty Tigris",
+
+    "wayfinder_shorty": "Shorty Desbravadora",
+
+    "hydrodip_frenzy": "Frenzy Hidromergulho",
+
+    "live_wire": "Frenzy Eletrizante",
+
+    "protocol_781-a_sheriff": "Sheriff Protocolo 781-A",
+
+    "schema_sheriff": "Sheriff Diagrama",
+
+    "velocity_karambit": "Karambit Velocidade",
+
+    "snowfall_classic": "Classic Nevada",
+
+    "finesse": "Classic Finesse",
+
+    "champions_2021_karambit": "Karambit Champions 2021",
+
+    "magepunk_guardian": "Guardian Magipunk",
+
+    "aero_frenzy": "Frenzy Aero",
+
+    "arcane_sheriff": "Sheriff Arcane",
+
+    "genesis_arc": "Arco Gênese",
+
+    "goldwing_classic": "Classic Asas Douradas",
+
+    "radiant_crisis_001_classic": "Classic Crise Radiante 001",
+
+    "nunca_olvidados_frenzy": "Frenzy Nunca Olvidados",
+
+    "rgx_11z_pro_frenzy": "Frenzy RGX 11z Pro",
+
+    "valorant_go!_vol._2_classic'": "Classic Valorant Go! Vol.2",
+
+    "artisan_foil": "Florete Artesã",
+
+    "nitro_guardian": "Guardian Nitro",
+
+    "spectrum_classic": "Classic Espectro",
+
+    "varnish_sheriff": "Sheriff Verniz",
+
+    "recon_ghost": "Ghost Reconhecimento",
+
+    "sentinels_of_light_sheriff": "Sheriff Sentinelas da Luz",
+
+    "ruination_ghost": "Ghost Ruína",
+
+    "jigsaw_ghost": "Ghost Quebra-Cabeça",
+
+    "k/tac_blade": "Lâmina K/Tac",
+
+    "fire/arm": "Classic Pis/Tola",
+
+    "monarch_shorty": "Shorty Monarquia",
+
+    "origin_frenzy": "Frenzy Origem",
+
+    "minima_sheriff": "Sheriff Mínima",
+
+    "tethered_realms_ghost": "Ghost Reinos Vinculados",
+
+    "depths_ghost": "Ghost Oceânica",
+
+    "forsaken_classic": "Classic Lúgubre",
+
+    "lightwave_frenzy": "Frenzy Cintilante",
+
+    "songsteel_melee": "Frenzy Metalódica",
+
+    "silvanus_sheriff": "Sheriff Bosque Místico",
+
+    "magepunk_ghost": "Ghost Magipunk",
+
+    "infantry_ghost": "Ghost Infantaria",
+
+    "POLYfrog_sheriff": "Sheriff POLYfrog",
+
+    "eclipse": "Ghost Infantaria",
+
+    "cavalier_ghost": "Ghost Cavalaria",
+
+    "prime//2.0_frenzy": "Frenzy Sublime//2.0",
+
+    "prismIII_axe": "Machado Prismático III",
+
+    "celestial_frenzy": "Frenzy Celestial",
+
+    "valorant_go!_vol._1_ghost": "Ghost Valorant Go! Vol. 1",
+
+    "glitchpop_classic": "Classic Glitchpop",
+
+    "horizon_frenzy": "Frenzy Horizonte",
+
+    "prism_ii_shorty": "Shorty Prismática II",
+
+    "aerosol_shorty": "Shorty Pulverizante",
+
+    "infinity_classic": "Classic Infinito",
+
+    "outpost_melee": "Confronto Posto Avançado",
+
+    "death_wish": "Sheriff Desejo Mortal",
+
+    "blastx_frenzy": "Frenzy BlastX",
+
+    "winterwunderland_ghost": "Ghost Paraíso Invernal",
+
+    "ion_sheriff": "Sheriff Íon",
+
+    "sensation_frenzy": "Frenzy Sensação",
+
+    "wasteland_shorty": "Shorty Desolação",
+
+    "reaver_sheriff": "Sheriff Saqueador",
+
+    "swooping": "Frenzy Rasante",
+
+    "ruin_dagger": "Adaga Delíquio",
+
+    "serenity_ghost": "Ghost Serenidade",
+
+    "singularity_sheriff": "Sheriff Singularidade",
+
+    "surge_classic": "Classic Arranque",
+
+    "gravitational_uranium_neuroblaster_spectre": "Spectre Anti-Rádio-Matéria Atomizador",
+
+    "ego_ghost": "Ghost Ego",
+
+    "smite_classic": "Classic Relâmpago",
+
+    "spline_classic": "Classic Spline",
+
+    "nebula_sheriff": "Sheriff Nebulosa",
+
+    "POLYfox_sheriff": "Sheriff POLYfox",
+
+    "glitchpop_frenzy": "Frenzy Glitchpop",
+
+    "hivemind_sword": "Espada Colmeia",
+
+    "wunderkind": "Shorty Jovem Prodígio",
+
+    "red_alert_classic": "Classic Alerta Vermelho",
+
+    "oni_shorty": "Shorty Oni",
+
+    "elderflame_frenzy": "Frenzy Ancifogo",
+
+    "prism_ghost": "Ghost Prismático",
+
+    "sovereign_ghost": "Ghost Soberania",
+
+    "dot_exe_ghost": "Ghost .EXE",
+
+    "aristocrat_sheriff": "Sheriff Aristocrata",
+
+    "avalanche_classic": "Classic Avalanche",
+
+    "convex_sheriff": "Sheriff Convexa",
+
+    "couture_frenzy": "Frenzy Couture",
+
+    "galleria_classic": "Classic Galeria",
+
+    "kingdom_knife": "Faca Kingdom",
+
+    "luxe_spectre": "Spectre Luxo",
+
+    "prime_classic": "Classic Sublime",
+
+    "rush_frenzy": "Frenzy Corrida",
+
+    "sakura_classic": "Classic Sakura",
+
+    "vendetta": "Ghost Vingativa",
+
+    "ragnarocker": "Frenzy Ragnarocker",
+
+    "peacekeeper": "Sheriff Pacificadora",
+
+    "hush": "Ghost Silenciosa",
+
+    "game_over": "Sheriff Fim de Jogo",
+
+    "soul_silencer": "Ghost Silencialmas",
+
+    "spitfire": "Frenzy Cospe-Fogo",
+
+    "pistolinha": "Classic Pistolinha",
+
+    "final_chamber": "Classic Recurso Final",
+
+    "protektor": "Sheriff Protektor",
+
+    "snakebite": "Shorty Veneno de Cobra"
   }
 }

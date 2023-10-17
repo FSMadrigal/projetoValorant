@@ -239,6 +239,7 @@ main {
   font-size: 1rem;
   font-family: var(--font);
   position: absolute;
+  z-index: 2;
 }
 
 #weapon_info {
@@ -347,9 +348,10 @@ main {
 }
 
 .weapon_info_weapon_image {
-  top: 50%;
+  top: 55%;
   left: 50%;
   width: 40%;
+  height: 40%;
   object-fit: contain;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -395,6 +397,10 @@ li:last-child button {
   border: var(--weapon_info_buttons_border);
   outline: var(--weapon_info_buttons_outline);
   outline-offset: var(--weapon_info_buttons_offset);
+}
+
+.info_button:hover {
+  cursor: pointer;
 }
 
 .weapon_info_buttons_colors_green {
@@ -469,6 +475,10 @@ li:last-child button {
   justify-content: center;
   background-color: #83c7bd;
   padding: 12.5px 32px;
+}
+
+.weapon_info_buttons_price:hover {
+  cursor: default;
 }
 
 .weapon_info_buttons_price_image {
