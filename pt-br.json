@@ -558,10 +558,10 @@
     "lightwave_phantom": "Phantom Cintilante",
     "lightwave_odin": "Odin Cintilante",
 
-    "songsteel_melee": "Frenzy Metalódica",
+    "songsteel_melee": "Metalódica",
     "songsteel_classic": "Classic Metalódica",
     "songsteel_guardian": "Guardian Metalódica",
-    "songsteel_marshal": "Metalódica",
+    "songsteel_marshal": "Marshal Metalódica",
 
     "silvanus_sheriff": "Sheriff Bosque Místico",
     "silvanus_stinger": "Stinger Bosque Místico",
@@ -586,7 +586,7 @@
     "POLYfrog_marshal": "Marshal POLYfrog",
     "POLYfrog_ares": "Ares POLYfrog",
 
-    "eclipse": "Ghost Infantaria",
+    "eclipse": "Ghost Eclipse",
 
     "cavalier_ghost": "Ghost Cavalaria",
     "cavalier_stinger": "Stinger Cavalaria",
@@ -955,215 +955,230 @@
     "doodle_buds": "Rabisquinhos",
     "endeavour": "Missão Espacial",
     "divine_swine": "Suíno Divino",
-
     "lycans_bane": "Licantropo",
-
     "striker": "Artilheira",
-
     "team_ace": "Ás na Manga",
-
     "undercity": "Suburbano",
-
-    "tigris_shorty": "Shorty Tigris",
-
-    "wayfinder_shorty": "Shorty Desbravadora",
-
-    "hydrodip_frenzy": "Frenzy Hidromergulho",
-
-    "live_wire": "Frenzy Eletrizante",
-
-    "protocol_781-a_sheriff": "Sheriff Protocolo 781-A",
-
-    "schema_sheriff": "Sheriff Diagrama",
-
-    "velocity_karambit": "Karambit Velocidade",
-
-    "snowfall_classic": "Classic Nevada",
-
-    "finesse": "Classic Finesse",
-
-    "champions_2021_karambit": "Karambit Champions 2021",
-
-    "magepunk_guardian": "Guardian Magipunk",
-
-    "aero_frenzy": "Frenzy Aero",
-
-    "arcane_sheriff": "Sheriff Arcane",
-
-    "genesis_arc": "Arco Gênese",
-
-    "goldwing_classic": "Classic Asas Douradas",
-
-    "radiant_crisis_001_classic": "Classic Crise Radiante 001",
-
-    "nunca_olvidados_frenzy": "Frenzy Nunca Olvidados",
-
-    "rgx_11z_pro_frenzy": "Frenzy RGX 11z Pro",
-
-    "valorant_go!_vol._2_classic'": "Classic Valorant Go! Vol.2",
-
-    "artisan_foil": "Florete Artesã",
-
-    "nitro_guardian": "Guardian Nitro",
-
-    "spectrum_classic": "Classic Espectro",
-
-    "varnish_sheriff": "Sheriff Verniz",
-
-    "recon_ghost": "Ghost Reconhecimento",
-
-    "sentinels_of_light_sheriff": "Sheriff Sentinelas da Luz",
-
-    "ruination_ghost": "Ghost Ruína",
-
-    "jigsaw_ghost": "Ghost Quebra-Cabeça",
-
-    "k/tac_blade": "Lâmina K/Tac",
-
-    "fire/arm": "Classic Pis/Tola",
-
-    "monarch_shorty": "Shorty Monarquia",
-
-    "origin_frenzy": "Frenzy Origem",
-
-    "minima_sheriff": "Sheriff Mínima",
-
-    "tethered_realms_ghost": "Ghost Reinos Vinculados",
-
-    "depths_ghost": "Ghost Oceânica",
-
-    "forsaken_classic": "Classic Lúgubre",
-
-    "lightwave_frenzy": "Frenzy Cintilante",
-
-    "songsteel_melee": "Frenzy Metalódica",
-
-    "silvanus_sheriff": "Sheriff Bosque Místico",
-
-    "magepunk_ghost": "Ghost Magipunk",
-
-    "infantry_ghost": "Ghost Infantaria",
-
-    "POLYfrog_sheriff": "Sheriff POLYfrog",
-
-    "eclipse": "Ghost Infantaria",
-
-    "cavalier_ghost": "Ghost Cavalaria",
-
-    "prime//2.0_frenzy": "Frenzy Sublime//2.0",
-
-    "prismIII_axe": "Machado Prismático III",
-
-    "celestial_frenzy": "Frenzy Celestial",
-
-    "valorant_go!_vol._1_ghost": "Ghost Valorant Go! Vol. 1",
-
-    "glitchpop_classic": "Classic Glitchpop",
-
-    "horizon_frenzy": "Frenzy Horizonte",
-
-    "prism_ii_shorty": "Shorty Prismática II",
-
-    "aerosol_shorty": "Shorty Pulverizante",
-
-    "infinity_classic": "Classic Infinito",
-
-    "outpost_melee": "Confronto Posto Avançado",
-
-    "death_wish": "Sheriff Desejo Mortal",
-
-    "blastx_frenzy": "Frenzy BlastX",
-
-    "winterwunderland_ghost": "Ghost Paraíso Invernal",
-
-    "ion_sheriff": "Sheriff Íon",
-
-    "sensation_frenzy": "Frenzy Sensação",
-
-    "wasteland_shorty": "Shorty Desolação",
-
-    "reaver_sheriff": "Sheriff Saqueador",
-
-    "swooping": "Frenzy Rasante",
-
-    "ruin_dagger": "Adaga Delíquio",
-
-    "serenity_ghost": "Ghost Serenidade",
-
-    "singularity_sheriff": "Sheriff Singularidade",
-
-    "surge_classic": "Classic Arranque",
-
-    "gravitational_uranium_neuroblaster_spectre": "Spectre Anti-Rádio-Matéria Atomizador",
-
-    "ego_ghost": "Ghost Ego",
-
-    "smite_classic": "Classic Relâmpago",
-
-    "spline_classic": "Classic Spline",
-
-    "nebula_sheriff": "Sheriff Nebulosa",
-
-    "POLYfox_sheriff": "Sheriff POLYfox",
-
-    "glitchpop_frenzy": "Frenzy Glitchpop",
-
-    "hivemind_sword": "Espada Colmeia",
-
-    "wunderkind": "Shorty Jovem Prodígio",
-
-    "red_alert_classic": "Classic Alerta Vermelho",
-
-    "oni_shorty": "Shorty Oni",
-
-    "elderflame_frenzy": "Frenzy Ancifogo",
-
-    "prism_ghost": "Ghost Prismático",
-
-    "sovereign_ghost": "Ghost Soberania",
-
-    "dot_exe_ghost": "Ghost .EXE",
-
-    "aristocrat_sheriff": "Sheriff Aristocrata",
-
-    "avalanche_classic": "Classic Avalanche",
-
-    "convex_sheriff": "Sheriff Convexa",
-
-    "couture_frenzy": "Frenzy Couture",
-
-    "galleria_classic": "Classic Galeria",
-
-    "kingdom_knife": "Faca Kingdom",
-
-    "luxe_spectre": "Spectre Luxo",
-
-    "prime_classic": "Classic Sublime",
-
-    "rush_frenzy": "Frenzy Corrida",
-
-    "sakura_classic": "Classic Sakura",
-
-    "vendetta": "Ghost Vingativa",
-
-    "ragnarocker": "Frenzy Ragnarocker",
-
-    "peacekeeper": "Sheriff Pacificadora",
-
-    "hush": "Ghost Silenciosa",
-
-    "game_over": "Sheriff Fim de Jogo",
-
-    "soul_silencer": "Ghost Silencialmas",
-
-    "spitfire": "Frenzy Cospe-Fogo",
-
-    "pistolinha": "Classic Pistolinha",
-
-    "final_chamber": "Classic Recurso Final",
-
-    "protektor": "Sheriff Protektor",
-
-    "snakebite": "Shorty Veneno de Cobra"
+    "tigris": "Tigris",
+    "prime_gaming_drop": "Desbravadora",
+    "hydrodip": "Hidromergulho",
+    "neon": "Neon",
+    "protocol_781-a": "Protocolo 781-A",
+    "schema": "Diagrama",
+    "velocity": "Velocidade",
+    "snowfall": "Nevada",
+    "chamber": "Chamber",
+    "champions_collection_2021": "Champions 2021",
+    "aero": "Aero",
+    "arcane": "Arcane",
+    "genesis": "Gênese",
+    "goldwing": "Asas Douradas",
+    "radiant_crisis_001": "Crise Radiante 001",
+    "nunca_olvidados": "Nunca Olvidados",
+    "valorant_go!_vol._2": "Classic Valorant Go! Vol.2",
+    "artisan": "Artesã",
+    "nitro": "Nitro",
+    "spectrum": "Espectro",
+    "varnish": "Verniz",
+    "recon": "Reconhecimento",
+    "sentinels_of_light": "Sentinelas da Luz",
+    "ruination": "Ruína",
+    "jigsaw": "Quebra-Cabeça",
+    "k/tac": "K/Tac",
+    "kay/o": "Kay/O",
+    "monarch": "Monarquia",
+    "origin": "Origem",
+    "minima": "Mínima",
+    "tethered_realms": "Reinos Vinculados",
+    "depths": "Oceânica",
+    "forsaken": "Lúgubre",
+    "lightwave": "Cintilante",
+    "songsteel": "Metalódica",
+    "silvanus": "Bosque Místico",
+    "infantry": "Infantaria",
+    "POLYfrog": "POLYfrog",
+    "Astra": "Astra",
+    "cavalier": "Cavalaria",
+    "prime//2.0": "Sublime//2.0",
+    "prismIII": "Prismático III",
+    "celestial": "Celestial",
+    "valorant_go!_vol._1": "Valorant Go! Vol. 1",
+    "glitchpop": "Glitchpop",
+    "horizon": "Horizonte",
+    "prism_ii": "Prismática II",
+    "aerosol": "Pulverizante",
+    "infinity": "Infinito",
+    "outpost": "Posto Avançado",
+    "yoru": "Yoru",
+    "blastx": "BlastX",
+    "winterwunderland": "Paraíso Invernal",
+    "sensation": "Sensação",
+    "wasteland": "Desolação",
+    "reaver": "Saqueador",
+    "skye": "Skye",
+    "ruin": "Delíquio",
+    "serenity": "Serenidade",
+    "singularity": "Singularidade",
+    "surge": "Arranque",
+    "gravitational_uranium_neuroblaster": "Anti-Rádio-Matéria Atomizador",
+    "ego": "Ego",
+    "smite": "Relâmpago",
+    "spline": "Spline",
+    "nebula": "Nebulosa",
+    "POLYfox": "POLYfox",
+    "hivemind": "Colmeia",
+    "killjoy": "KillJoy",
+    "red_alert": "Alerta Vermelho",
+    "elderflame": "Ancifogo",
+    "prism": "Prismático",
+    "sovereign": "Soberania",
+    ".EXE": ".EXE",
+    "aristocrat": "Aristocrata",
+    "avalanche": "Avalanche",
+    "convex": "Convexa",
+    "couture": "Couture",
+    "galleria": "Galeria",
+    "kingdom": "Kingdom",
+    "luxe": "Luxo",
+    "prime": "Sublime",
+    "rush": "Corrida",
+    "sakura": "Sakura",
+    "reyna": "Reyna",
+    "breach": "Breach",
+    "brimstone": "Brimstone",
+    "cypher": "Cypher",
+    "jett": "Jett",
+    "omen": "Omen",
+    "phoenix": "Phoenix",
+    "raze": "Raze",
+    "sage": "Sage",
+    "sova": "Sova",
+    "viper": "Viper"
+  },
+
+  "tipo_armas": {
+    "classic": "Classic",
+    "shorty": "Shorty",
+    "frenzy": "Frenzy",
+    "ghost": "Ghost",
+    "sheriff": "Sheriff",
+    "stinger": "Stinger",
+    "spectre": "Spectre",
+    "bucky": "Bucky",
+    "judge": "Judge",
+    "bulldog": "Bulldog",
+    "guardian": "Guardian",
+    "phantom": "Phantom",
+    "vandal": "Vandal",
+    "marshal": "Marshal",
+    "operator": "Operator",
+    "ares": "Ares",
+    "odin": "Odin",
+    "knife": "Faca"
+  },
+
+  "moeda_armas": {
+    "valorant_points": "VALORANT Points",
+    "kingdom_points": "Créditos Kingdom"
+  },
+
+  "preço_armas": {
+    "agent": "Agente",
+    "battle_pass": "Passe de Batalha",
+    "875": "875",
+    "1750": "1.750",
+    "1275": "1.275",
+    "2550": "2.550",
+    "1775": "1.775",
+    "3550": "3.550",
+    "2175": "2.175",
+    "4350": "4.350",
+    "2675": "2.675",
+    "5330": "5.330",
+    "2475": "2.475",
+    "4950": "4.950",
+    "2975": "2.975",
+    "5950": "5.950"
+  },
+
+  "lançamento_armas": {
+    "04_15_2020": "15 abril 2020",
+    "06_01_2020": "01 junho 2020",
+    "06_02_2020": "02 junho 2020",
+    "06_09_2020": "09 junho 2020",
+    "06_23_2020": "23 junho 2020",
+    "07_10_2020": "10 julho 2020",
+    "07_21_2020": "21 julho 2020",
+    "08_04_2020": "04 agosto 2020",
+    "08_20_2020": "20 agosto 2020",
+    "09_01_2020": "01 setembro 2020",
+    "09_15_2020": "15 setembro 2020",
+    "09_29_2020": "29 setembro 2020",
+    "10_13_2020": "13 outubro 2020",
+    "10_27_2020": "27 outubro 2020",
+    "11_10_2020": "10 novembro 2020",
+    "12_08_2020": "08 dezembro 2020",
+    "01_12_2021": "12 janeiro 2021",
+    "01_20_2021": "20 janeiro 2021",
+    "02_02_2021": "02 fevereiro 2021",
+    "02_17_2021": "17 fevereiro 2021",
+    "03_02_2021": "02 março 2021",
+    "03_16_2021": "16 março 2021",
+    "03_30_2021": "30 março 2021",
+    "04_13_2021": "13 abril 2021",
+    "04_27_2021": "27 abril 2021",
+    "05_11_2021": "11 maio 2021",
+    "06_08_2021": "08 junho 2021",
+    "06_22_2021": "22 junho 2021",
+    "07_07_2021": "07 julho 2021",
+    "07_20_2021": "20 julho 2021",
+    "08_24_2021": "24 agosto 2021",
+    "09_08_2021": "08 setembro 2021",
+    "09_21_2021": "21 setembro 2021",
+    "10_05_2021": "05 outubro 2021",
+    "10_19_2021": "19 outubro 2021",
+    "11_02_2021": "02 novembro 2021",
+    "11_16_2021": "16 novembro 2021",
+    "12_07_2021": "07 dezembro 2021",
+    "01_11_2022": "11 janeiro 2022",
+    "01_15_2022": "15 janeiro 2022",
+    "02_01_2022": "01 fevereiro 2022",
+    "02_15_2022": "15 fevereiro 2022",
+    "03_01_2022": "01 março 2022",
+    "03_22_2022": "22 março 2022",
+    "04_12_2022": "12 abril 2022",
+    "04_23_2022": "23 abril 2022",
+    "04_27_2022": "27 abril 2022",
+    "05_10_2022": "10 maio 2022",
+    "05_24_2022": "24 maio 2022",
+    "06_07_2022": "07 junho 2022",
+    "06_22_2022": "22 junho 2022",
+    "07_12_2022": "12 julho 2022",
+    "08_09_2022": "09 agosto 2022",
+    "08_23_2022": "23 agosto 2022",
+    "09_07_2022": "07 setembro 2022",
+    "09_20_2022": "20 setembro 2022",
+    "10_04_2022": "04 outubro 2022",
+    "10_18_2022": "18 outubro 2022",
+    "11_01_2022": "01 novembro 2022",
+    "11_15_2022": "15 novembro 2022",
+    "12_06_2022": "06 dezembro 2022",
+    "01_10_2023": "10 janeiro 2023",
+    "01_18_2023": "18 janeiro 2023",
+    "02_07_2023": "07 fevereiro 2023",
+    "02_14_2023": "14 fevereiro 2023",
+    "03_07_2023": "07 março 2023",
+    "03_28_2023": "28 março 2023",
+    "04_11_2023": "11 abril 2023",
+    "04_23_2023": "23 abril 2023",
+    "04_25_2023": "25 abril 2023",
+    "06_06_2023": "06 junho 2023",
+    "06_27_2023": "27 junho 2023",
+    "07_11_2023": "11 julho 2023",
+    "08_01_2023": "01 agosto 2023",
+    "08_07_2023": "07 agosto 2023",
+    "08_29_2023": "29 agosto 2023",
+    "09_19_2023": "19 setembro 2023",
+    "10_03_2023": "03 outubro 2023"
   }
 }
