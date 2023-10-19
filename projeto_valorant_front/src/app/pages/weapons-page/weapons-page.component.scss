@@ -399,6 +399,11 @@ main {
 }
 
 @media (max-width: 720px) and (max-height: 1600px) {
+  .current_page_wrapper {
+    align-items: flex-start;
+    width: 100%;
+  }
+
   .search_current_page {
     font-size: 5.5rem;
   }
@@ -440,7 +445,7 @@ main {
     display: none;
   }
 
-  #container_guns {
+  #container_weapons {
     display: flex;
     flex-direction: column;
     left: 1.3%;

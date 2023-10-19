@@ -23,11 +23,12 @@
     </p>
   </section>
   <section id="weapon_info">
-    <div id="container_weapons">
+    <div id="container_weapons" class="keen-slider" #sliderRef>
       <app-card
         *ngFor="let weapon of individual_weapon.collection_weapons"
         [weapon]="weapon"
         size="small"
+        class="keen-slider__slide"
       ></app-card>
     </div>
     <hr class="style_up_line_left" />
@@ -36,7 +37,7 @@
     <hr class="style_bottom_line" />
     <hr class="style_bottom_line_diagonal" />
     <div class="weapon_info_card_wrapper">
-      <div class="weapon_info_card"></div>
+      <div class="style_weapon_info_card"></div>
       <p class="weapon_info_card_name">{{ individual_weapon.weapon }}</p>
       <img
         [src]="individual_weapon.image"
@@ -65,62 +66,62 @@
         <ul class="weapon_info_buttons_icons">
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_gun_animation"
+              class="info_button info_button_icon weapon_info_buttons_icons_gun_animation"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_reload_animation"
+              class="info_button info_button_icon weapon_info_buttons_icons_reload_animation"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_gun_visualization"
+              class="info_button info_button_icon weapon_info_buttons_icons_gun_visualization"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_visual_effect"
+              class="info_button info_button_icon weapon_info_buttons_icons_visual_effect"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_bullet_effect"
+              class="info_button info_button_icon weapon_info_buttons_icons_bullet_effect"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_sound_effect"
+              class="info_button info_button_icon weapon_info_buttons_icons_sound_effect"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_gunshot_sound"
+              class="info_button info_button_icon weapon_info_buttons_icons_gunshot_sound"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_music"
+              class="info_button info_button_icon weapon_info_buttons_icons_music"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_finisher"
+              class="info_button info_button_icon weapon_info_buttons_icons_finisher"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_kill_count"
+              class="info_button info_button_icon weapon_info_buttons_icons_kill_count"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_top_frag"
+              class="info_button info_button_icon weapon_info_buttons_icons_top_frag"
             ></button>
           </li>
           <li>
             <button
-              class="info_button weapon_info_buttons_icons_attackers_or_defenders"
+              class="info_button info_button_icon weapon_info_buttons_icons_attackers_or_defenders"
             ></button>
           </li>
         </ul>

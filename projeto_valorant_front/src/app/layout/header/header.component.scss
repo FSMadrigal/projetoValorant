@@ -39,7 +39,10 @@ nav {
 @media (max-width: 720px) and (max-height: 1600px) {
   .navigation {
     left: 0;
-    justify-content: space-between;
-    font-size: 0.8rem;
+    right: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
   }
 }

@@ -321,7 +321,7 @@ main {
   position: relative;
 }
 
-.weapon_info_card {
+.style_weapon_info_card {
   background: linear-gradient(var(--background_primary_color), var(--select));
   width: 1406.2px;
   height: 600px;
@@ -469,7 +469,6 @@ li:last-child button {
 }
 
 .weapon_info_buttons_price {
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -520,5 +519,146 @@ li:last-child button {
     width: 1884.2px;
     height: 853.3px;
     position: relative;
+  }
+}
+
+@media (max-width: 720px) and (max-height: 1600px) {
+  .style_vertical_line_right {
+    display: none;
+  }
+
+  .style_vertical_line_left {
+    display: none;
+  }
+
+  .style_gradient_background {
+    display: none;
+  }
+
+  #collection_info {
+    top: 0;
+    width: 100vw;
+    height: 15%;
+  }
+
+  .current_page_wrapper {
+    align-items: flex-start;
+    width: 100%;
+    height: 85%;
+  }
+
+  .current_page {
+    font-size: 23rem;
+  }
+
+  .collection_info_release {
+    right: auto;
+    left: auto;
+  }
+
+  #weapon_info {
+    background-color: transparent;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #container_weapons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    // justify-content: space-between;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+  }
+
+  .style_up_line_left {
+    left: 0;
+    width: 20%;
+  }
+
+  .style_up_line_right {
+    right: 0;
+    width: 20%;
+  }
+
+  .style_up_line_diagonal {
+    display: none;
+  }
+
+  .style_bottom_line {
+    left: 0;
+  }
+
+  .style_bottom_line_diagonal {
+    display: none;
+  }
+
+  .style_weapon_info_card {
+    height: 79vh;
+  }
+
+  .weapon_info_card_name {
+    top: 3%;
+    font-size: 3rem;
+  }
+
+  .weapon_info_weapon_image {
+    top: 30%;
+    width: 99%;
+  }
+
+  .weapon_info_buttons {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "colors price"
+      "icons icons";
+    row-gap: 21px;
+    column-gap: 21px;
+    justify-items: center;
+    bottom: 30%;
+    width: 100vw;
+  }
+
+  .weapon_info_buttons_colors {
+    grid-area: colors;
+  }
+
+  li:last-child button {
+    margin-right: 0;
+  }
+
+  .info_button_icon {
+    margin-right: 0;
+  }
+
+  .weapon_info_buttons_icons {
+    flex-flow: row wrap;
+    row-gap: 12px;
+    column-gap: 21px;
+    grid-area: icons;
+    justify-content: center;
+  }
+
+  .weapon_info_buttons_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    grid-area: price;
+  }
+
+  .weapon_info_buttons_price_image {
+    width: 50%;
+    padding-right: 10px;
+  }
+
+  .weapon_info_buttons_price_text {
+    font-size: 1.5rem;
   }
 }
