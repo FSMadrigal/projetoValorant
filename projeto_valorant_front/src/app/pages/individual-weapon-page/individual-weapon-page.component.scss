@@ -436,16 +436,24 @@ li:last-child button {
   background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_visual_effect.svg);
 }
 
+.weapon_info_buttons_icons_kill_effect {
+  background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_kill_effect.svg);
+}
+
+.weapon_info_buttons_icons_kill_sound {
+  background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_kill_sound.svg);
+}
+
 .weapon_info_buttons_icons_bullet_effect {
   background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_bullet_effect.svg);
 }
 
-.weapon_info_buttons_icons_sound_effect {
-  background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_sound_effect.svg);
-}
-
 .weapon_info_buttons_icons_gunshot_sound {
   background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_gunshot_sound.svg);
+}
+
+.weapon_info_buttons_icons_sound_effect {
+  background: url(https://valorskins.s3.sa-east-1.amazonaws.com/icons/change_sound_effect.svg);
 }
 
 .weapon_info_buttons_icons_music {
